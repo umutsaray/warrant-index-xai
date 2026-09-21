@@ -155,4 +155,4 @@ The Warrant Index provided a non-compensatory audit across linear, tree-ensemble
 
 The implementation is provided as the `warrantxai` Python package, with experiment scripts and machine-readable result artifacts for the analyses reported here. Local installation uses the package configuration in `pyproject.toml`; optional real-data dependencies are defined by the project.
 
-**[TODO: Claude/kullanıcı ile netleştirilecek — public repo + lisans kararı bekliyor]**
+**[TODO: Public repo + lisans kararı bekliyor]**
