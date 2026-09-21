@@ -861,3 +861,11 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `PHASE77_CANCELLATION_CHECK.csv/.md`, fold-0 sekiz ve fold-1 iki degenerate RSF fold-feature sonucu için 10/10 exact-zero assertion'ını doğrular: her birinde 600/600 hücre sıfır ve M_j=P_j=Q_j=0'dır. CoxPH-v2'nin sekiz ve fold-0 RSF'nin dört informative karşılaştırma satırı cellwise-zero değildir.
 - `PHASE77_FULL_FEATURE_TABLE_FOLD0.csv/.md`, fold-0'ın 27 ortak özelliğini üç model için 81 satırda attribution özetleri, F/S/U/G/G_signed/R/WI, point ve BH/BY kararları, sertifikalı-satır etiketi ve RSF 500-ağaç split kullanım sayısıyla verir.
 - `PHASE77_SUMMARY.md` adım sürelerini ve değişmeyen formül hashlerini kaydeder. `tests/test_phase77_cancellation_full_table.py`, 10/10 exact-zero sonucunu, informative karşılaştırmaları, 81-satırlık şemayı ve frozen kararları doğrular.
+
+## Faz 8 ek sağlamlık ve public GitHub deposu
+
+- `experiments/56_phase8_robustness.py`, saklı query matrisleri ve CoxPH N=50 attribution/log artefaktlarından sorgu-varyansı ve retry/direct diagnostiklerini üretir; yeni model fit, explainer, bootstrap, kalibrasyon veya sertifikasyon çalıştırmaz.
+- `PHASE8_QUERY_VARIANCE_CHECK.csv/.md`, dört degenerate fold-feature çiftinin tamamında 24-sorgu varyansının sıfırdan büyük olduğunu gösterir; sıfır-varyans hipotezi 0/4 doğrulanmış, 4/4 reddedilmiştir.
+- `PHASE8_COXPH_RETRY_BIAS_CHECK.csv/.md`, 28 retry ve 22 direct replikayı karşılaştırır. Beş feature nominal `|fark|>1.96×birleşik SE` eşiğini aşar; bu tanımlayıcı flag mevcut BH/BY kararlarını değiştirmez.
+- Public MIT deposu `https://github.com/umutsaray/warrant-index-survival-xai` adresindedir. `data/`, `results/`, patient-level parquet, model/checkpoint ve attribution tensörleri izleme dışıdır. `PHASE8_GITHUB_REPO_SUMMARY.md` yayın envanterini kaydeder.
+- `PHASE8_SUMMARY.md` üç adımı ve sürelerini; `tests/test_phase8_robustness.py` dört hipotez sonucunu, 28/22 partition'ı, beş nominal flag'i ve formül hashlerini doğrular.
