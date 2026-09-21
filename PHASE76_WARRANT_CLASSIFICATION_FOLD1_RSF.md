@@ -1,0 +1,15 @@
+# Faz 7.6 — Fold-1 RSF warrant sınıflandırması
+
+Fold-1'in yedi BH-sertifikalı RSF feature'ı aynı exact-zero kuralıyla sınıflandırıldı.
+
+| Model | Feature        | Feature ID                                                  | Mean signed attribution | Non-zero replicate frequency | Non-zero query frequency | Query denominator | Averaging scope                     | Label       |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RSF   | AMBN           | rna_ENSG00000178522.14                                      | 0.006343107379280081    | 50                           | 12                       | 12                | fixed 12 TCGA queries × 50 replicas | informative |
+| RSF   | OR13C3         | rna_ENSG00000204246.3                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas | degenerate  |
+| RSF   | ABCB5          | rna_ENSG00000004846.16                                      | 0.003144586189996325    | 50                           | 12                       | 12                | fixed 12 TCGA queries × 50 replicas | informative |
+| RSF   | AJCC Stage I   | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I   | 6.439366319444251e-05   | 29                           | 2                        | 12                | fixed 12 TCGA queries × 50 replicas | informative |
+| RSF   | AJCC Stage II  | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II  | 0.0026948782661629558   | 50                           | 3                        | 12                | fixed 12 TCGA queries × 50 replicas | informative |
+| RSF   | AJCC Stage III | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III | 0.0025489028630555537   | 47                           | 1                        | 12                | fixed 12 TCGA queries × 50 replicas | informative |
+| RSF   | AJCC Stage IV  | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV  | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas | degenerate  |
+
+Sonuç: **5 informative / 2 degenerate**. Süre **0.006 sn**.

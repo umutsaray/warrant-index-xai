@@ -1,0 +1,7 @@
+Fold,Model,C_index,Feature_panel_m,Point_WI_ge_0_8,BH_certified,BY_certified,Bottleneck,Status
+0,CoxPH-v2,0.667704,27,9,8,8,R:24; G_claim:3,complete (official reference)
+0,RSF,0.538521,27,17,12,12,R:24; G_claim:3,complete (official reference)
+0,DeepSurv,0.496498,27,0,0,0,R:27,complete (official reference)
+1,CoxPH-v2,0.705882,80,,,,NA,N=50 stopped: bootstrap replicate 15 failed frozen retry
+1,RSF,0.789609,80,10,7,7,R:76; G_claim:4,complete; fresh gate passed 0/30 Holm flags
+1,DeepSurv,0.719193,80,7,0,0,R:80,complete; fresh gate passed 0/30 Holm flags

@@ -1,0 +1,50 @@
+# Python/build/test artifacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest*/
+.hypothesis/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.ruff_cache/
+.attribution_cache/
+
+# Patient-level and externally licensed data
+/data/
+/results/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# Models and large binary computation artifacts
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.npy
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*credential*
+*token*
+
+# Scratch and editor files
+/tmp/
+/scratch/
+*.tmp
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

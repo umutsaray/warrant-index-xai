@@ -1,0 +1,3 @@
+include pytest.ini
+include PHASE2_REPORT_TR.md
+recursive-include experiments *.py

@@ -1,0 +1,6 @@
+tau,reference_primary,CoxPH_point,CoxPH_BH,CoxPH_BY,RSF_point,RSF_BH,RSF_BY,DeepSurv_point,DeepSurv_BH,DeepSurv_BY
+0.7,False,22,17,15,26,25,22,21,6,6
+0.75,False,16,9,9,22,16,12,6,1,1
+0.8,True,9,8,8,17,12,12,0,0,0
+0.85,False,2,1,1,13,12,12,0,0,0
+0.9,False,1,1,1,13,10,10,0,0,0

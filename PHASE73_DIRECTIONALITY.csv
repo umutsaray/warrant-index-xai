@@ -1,0 +1,21 @@
+Model,Feature,Feature ID,Mean signed attribution,Direction,Averaging scope
+CoxPH-v2,AJCC Stage III,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,-0.0051066448735063,negatif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,Age at index,clin_numeric__age_at_index.demographic,0.002733093291879822,pozitif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,CA1,rna_ENSG00000133742.14,-2.358632645184892e-05,negatif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,RBMY1F,rna_ENSG00000169800.14,-0.0011567857749820304,negatif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,KRTAP19-2,rna_ENSG00000186965.5,-0.00025621341486021956,negatif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,OR13C3,rna_ENSG00000204246.3,5.3203892843333e-05,pozitif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,KRTAP19-7,rna_ENSG00000244362.3,-0.0015624577490138754,negatif,153 TCGA audit patients × 50 replicas
+CoxPH-v2,OR5M10,rna_ENSG00000254834.4,-0.001537920116998967,negatif,153 TCGA audit patients × 50 replicas
+RSF,AJCC Stage I,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,0.00011641195436507619,pozitif,stored deterministic 12 TCGA queries × 50 replicas
+RSF,AJCC Stage II,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,0.0023411669001443757,pozitif,stored deterministic 12 TCGA queries × 50 replicas
+RSF,AJCC Stage III,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,0.006888961370342453,pozitif,stored deterministic 12 TCGA queries × 50 replicas
+RSF,AJCC Stage IV,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,RBMY1F,rna_ENSG00000169800.14,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,OR4C46,rna_ENSG00000185926.1,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,KRTAP19-2,rna_ENSG00000186965.5,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,OR13C3,rna_ENSG00000204246.3,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,ACCSL,rna_ENSG00000205126.2,0.0008413062360093187,pozitif,stored deterministic 12 TCGA queries × 50 replicas
+RSF,OR6C1,rna_ENSG00000205330.4,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,KRTAP19-7,rna_ENSG00000244362.3,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas
+RSF,OR5M10,rna_ENSG00000254834.4,0.0,sıfır,stored deterministic 12 TCGA queries × 50 replicas

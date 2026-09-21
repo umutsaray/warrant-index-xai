@@ -1,0 +1,7 @@
+Feature,Feature ID,CoxPH full-153 mean,CoxPH full direction,CoxPH matched-12 mean,CoxPH matched direction,RSF mean,RSF direction,Same sign on matched queries
+AJCC Stage III,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,-0.0051066448735063,negatif,-0.022718597003040568,negatif,0.006888961370342453,pozitif,False
+RBMY1F,rna_ENSG00000169800.14,-0.0011567857749820304,negatif,-0.0011567857749820404,negatif,0.0,sıfır,False
+KRTAP19-2,rna_ENSG00000186965.5,-0.00025621341486021956,negatif,0.00026846678066491783,pozitif,0.0,sıfır,False
+OR13C3,rna_ENSG00000204246.3,5.3203892843333e-05,pozitif,-6.665303831387364e-05,negatif,0.0,sıfır,False
+KRTAP19-7,rna_ENSG00000244362.3,-0.0015624577490138754,negatif,0.0008176890677823335,pozitif,0.0,sıfır,False
+OR5M10,rna_ENSG00000254834.4,-0.001537920116998967,negatif,0.0008541772755781245,pozitif,0.0,sıfır,False

@@ -1,0 +1,140 @@
+{
+  "new_experiment_or_model_call": false,
+  "threshold": 0.8,
+  "family_size": 77,
+  "table_1": {
+    "CoxPH N=50": {
+      "point_WI_ge_0_8": 22,
+      "BH": 8,
+      "BY": 8,
+      "BH_survival_fraction": 0.3636363636363636
+    },
+    "RSF N=50": {
+      "point_WI_ge_0_8": 20,
+      "BH": 10,
+      "BY": 10,
+      "BH_survival_fraction": 0.5
+    },
+    "DeepSurv N=50": {
+      "point_WI_ge_0_8": 8,
+      "BH": 0,
+      "BY": 0,
+      "BH_survival_fraction": 0.0
+    }
+  },
+  "table_2": {
+    "CoxPH N=50": {
+      "F": 0,
+      "S": 0,
+      "U": 0,
+      "G_claim": 1,
+      "R": 76
+    },
+    "RSF N=50": {
+      "F": 0,
+      "S": 0,
+      "U": 0,
+      "G_claim": 5,
+      "R": 72
+    },
+    "DeepSurv N=50": {
+      "F": 0,
+      "S": 0,
+      "U": 0,
+      "G_claim": 0,
+      "R": 77
+    }
+  },
+  "figure_4_point_counts": {
+    "CoxPH N=50": 22,
+    "RSF N=50": 20,
+    "DeepSurv N=50": 8
+  },
+  "outputs": {
+    "figure_1": {
+      "files": [
+        "manuscript_assets\\figure_1.png",
+        "manuscript_assets\\figure_1.pdf",
+        "manuscript_assets\\figure_1.eps"
+      ],
+      "png_pixels": [
+        4015,
+        1464
+      ],
+      "png_dpi": [
+        600.0,
+        600.0
+      ],
+      "physical_size_mm": [
+        169.97,
+        61.98
+      ],
+      "pdf_contains_embedded_truetype_font": true,
+      "note": "Conceptual pipeline; no empirical values beyond frozen tau=0.8 and family size m=77."
+    },
+    "figure_2": {
+      "files": [
+        "manuscript_assets\\figure_2.png",
+        "manuscript_assets\\figure_2.pdf",
+        "manuscript_assets\\figure_2.eps"
+      ],
+      "png_pixels": [
+        4015,
+        1842
+      ],
+      "png_dpi": [
+        600.0,
+        600.0
+      ],
+      "physical_size_mm": [
+        169.97,
+        77.98
+      ],
+      "pdf_contains_embedded_truetype_font": true
+    },
+    "figure_3": {
+      "files": [
+        "manuscript_assets\\figure_3.png",
+        "manuscript_assets\\figure_3.pdf",
+        "manuscript_assets\\figure_3.eps"
+      ],
+      "png_pixels": [
+        2007,
+        1771
+      ],
+      "png_dpi": [
+        600.0,
+        600.0
+      ],
+      "physical_size_mm": [
+        84.96,
+        74.97
+      ],
+      "pdf_contains_embedded_truetype_font": true
+    },
+    "figure_4": {
+      "files": [
+        "manuscript_assets\\figure_4.png",
+        "manuscript_assets\\figure_4.pdf",
+        "manuscript_assets\\figure_4.eps"
+      ],
+      "png_pixels": [
+        4015,
+        1842
+      ],
+      "png_dpi": [
+        600.0,
+        600.0
+      ],
+      "physical_size_mm": [
+        169.97,
+        77.98
+      ],
+      "pdf_contains_embedded_truetype_font": true
+    }
+  },
+  "privacy": {
+    "patient_or_sample_identifiers_exported": false,
+    "feature_labels_exported_in_figures": false
+  }
+}

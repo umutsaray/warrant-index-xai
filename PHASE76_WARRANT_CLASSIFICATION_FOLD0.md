@@ -1,0 +1,28 @@
+# Faz 7.6 — Fold-0 warrant sınıflandırması
+
+Etiket kuralı önceden tanımlıdır: saklı signed attribution tensörünün aritmetik ortalaması exact `0.0` ise `degenerate`, değilse `informative`. Ek test veya tolerans kullanılmadı.
+
+| Model    | Feature        | Feature ID                                                  | Mean signed attribution | Non-zero replicate frequency | Non-zero query frequency | Query denominator | Averaging scope                       | Label       |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CoxPH-v2 | KRTAP19-7      | rna_ENSG00000244362.3                                       | -0.001562457749013919   | 31                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | RBMY1F         | rna_ENSG00000169800.14                                      | -0.0011567857749820404  | 25                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | CA1            | rna_ENSG00000133742.14                                      | -2.3586326451850447e-05 | 50                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | OR13C3         | rna_ENSG00000204246.3                                       | 5.320389284333107e-05   | 47                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | KRTAP19-2      | rna_ENSG00000186965.5                                       | -0.00025621341486022515 | 31                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | OR5M10         | rna_ENSG00000254834.4                                       | -0.001537920116998942   | 32                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | Age at index   | clin_numeric__age_at_index.demographic                      | 0.0027330932918798166   | 50                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| CoxPH-v2 | AJCC Stage III | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III | -0.005106644873506319   | 50                           | 153                      | 153               | 153 TCGA audit patients × 50 replicas | informative |
+| RSF      | KRTAP19-7      | rna_ENSG00000244362.3                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | OR6C1          | rna_ENSG00000205330.4                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | OR4C46         | rna_ENSG00000185926.1                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | RBMY1F         | rna_ENSG00000169800.14                                      | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | OR13C3         | rna_ENSG00000204246.3                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | KRTAP19-2      | rna_ENSG00000186965.5                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | ACCSL          | rna_ENSG00000205126.2                                       | 0.0008413062360093187   | 49                           | 12                       | 12                | fixed 12 TCGA queries × 50 replicas   | informative |
+| RSF      | OR5M10         | rna_ENSG00000254834.4                                       | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+| RSF      | AJCC Stage I   | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I   | 0.00011641195436507619  | 44                           | 1                        | 12                | fixed 12 TCGA queries × 50 replicas   | informative |
+| RSF      | AJCC Stage II  | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II  | 0.0023411669001443766   | 50                           | 3                        | 12                | fixed 12 TCGA queries × 50 replicas   | informative |
+| RSF      | AJCC Stage III | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III | 0.006888961370342453    | 50                           | 2                        | 12                | fixed 12 TCGA queries × 50 replicas   | informative |
+| RSF      | AJCC Stage IV  | clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV  | 0.0                     | 0                            | 0                        | 12                | fixed 12 TCGA queries × 50 replicas   | degenerate  |
+
+Assertion geçti: CoxPH-v2 **8 informative / 0 degenerate**; RSF **4 informative / 8 degenerate**. Birleşim 14 benzersiz feature, model-feature düzeyinde 20 satırdır. Süre **0.083 sn**.
