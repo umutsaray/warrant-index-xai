@@ -876,3 +876,9 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/57_phase10_diagnostics.py`, fold-1 model girdisinin fold-0 paneliyle yalnız 10/27 örtüştüğünü ve tam harmonizasyonun model yeniden fit edilmeden tanımlı olmadığını kaydeder. Aynı script CoxPH retry/direct tanısını ve direct-22 sertifikasyon duyarlılığını üretir.
 - Tam-50 CoxPH-v2 BH=BY kümesi 8/27, direct-22 kümesi 6/27'dir; `CA1` ve `OR13C3` düşer, point sayı 9/27 kalır. Resmi tam-50 sonuçları değiştirilmez.
 - `PHASE10_SUMMARY.md` üç adımı, süreleri ve değişmeyen formül hashlerini özetler. `tests/test_phase10_outputs.py`, 378/81/27 satırlık çıktı bütünlüğünü, özgün 12+12 reprodüksiyonunu ve karar kümelerini doğrular.
+
+## Faz 11 fold-1 CoxPH-v2 NA yönsel duyarlılığı
+
+- `experiments/59_phase11_fold1_na_sensitivity.py`, resmî NA kararını değiştirmeden başarısız replika 15'i dışlayan N=49 senaryosunu ve yalnız bu replikayı `penalizer=0.15` ile kurtaran N=50 tanı senaryosunu çalıştırır.
+- N=49 point/BH/BY sayıları 19/13/11, gevşetilmiş-ceza N=50 sayıları 20/13/11'dir. BH/BY kümeleri değişmez; point kümesine yalnız AJCC Stage II eklenir.
+- `PHASE11_FOLD1_NA_SENSITIVITY.csv/.md` sonuçları, kurtarılan katsayı normunu ve resmî Table 4 NA hücresinin korunduğunu kaydeder. `tests/test_phase11_fold1_na_sensitivity.py` iki senaryonun sayılarını, karar kümelerini, tanısal etiketi ve formül hashlerini doğrular.
