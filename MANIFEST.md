@@ -869,3 +869,10 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `PHASE8_COXPH_RETRY_BIAS_CHECK.csv/.md`, 28 retry ve 22 direct replikayı karşılaştırır. Beş feature nominal `|fark|>1.96×birleşik SE` eşiğini aşar; bu tanımlayıcı flag mevcut BH/BY kararlarını değiştirmez.
 - Public MIT deposu `https://github.com/umutsaray/warrant-index-survival-xai` adresindedir. `data/`, `results/`, patient-level parquet, model/checkpoint ve attribution tensörleri izleme dışıdır. `PHASE8_GITHUB_REPO_SUMMARY.md` yayın envanterini kaydeder.
 - `PHASE8_SUMMARY.md` üç adımı ve sürelerini; `tests/test_phase8_robustness.py` dört hipotez sonucunu, 28/22 partition'ı, beş nominal flag'i ve formül hashlerini doğrular.
+
+## Faz 10 sorgu, fold ve retry duyarlılığı
+
+- `experiments/58_phase10_query_resampling.py`, fold-0 dondurulmuş 27-feature panelinde RSF ve DeepSurv'ü 24+24 ve 48+48 sorguda üçer deterministik seed ile değerlendirir. RSF point-adequate sayısı 11–18 aralığına açılır; DeepSurv bütün konfigürasyonlarda 0/27 kalır. Sekiz RSF null-warrant özelliğinin dördü daha büyük TCGA sorgularında sürekli sıfır kalır.
+- `experiments/57_phase10_diagnostics.py`, fold-1 model girdisinin fold-0 paneliyle yalnız 10/27 örtüştüğünü ve tam harmonizasyonun model yeniden fit edilmeden tanımlı olmadığını kaydeder. Aynı script CoxPH retry/direct tanısını ve direct-22 sertifikasyon duyarlılığını üretir.
+- Tam-50 CoxPH-v2 BH=BY kümesi 8/27, direct-22 kümesi 6/27'dir; `CA1` ve `OR13C3` düşer, point sayı 9/27 kalır. Resmi tam-50 sonuçları değiştirilmez.
+- `PHASE10_SUMMARY.md` üç adımı, süreleri ve değişmeyen formül hashlerini özetler. `tests/test_phase10_outputs.py`, 378/81/27 satırlık çıktı bütünlüğünü, özgün 12+12 reprodüksiyonunu ve karar kümelerini doğrular.

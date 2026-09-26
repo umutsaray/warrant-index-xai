@@ -21,5 +21,5 @@ def test_manuscript_scope_and_source_warning_are_explicit() -> None:
     assert "## Abstract" not in draft
     assert "## 1. Introduction" not in draft
     assert "section2-warrant-index-taslak.md` is absent" in ledger
-    assert "[TODO: Claude/kullanıcı ile netleştirilecek — public repo + lisans kararı bekliyor]" in draft
+    assert "[TODO: Public repo + lisans kararı bekliyor]" in draft
 
