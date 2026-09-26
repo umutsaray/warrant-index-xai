@@ -10,6 +10,6 @@
 
 CoxPH retry kontrolündeki beş flag yeni veya çoklu-test düzeltilmiş bir sertifikasyon sonucu değildir; yalnız tanımlayıcı sağlamlık sinyalidir. WI, component skor tanımları, eşikler ve mevcut BH/BY kararları değiştirilmedi.
 
-Public depo: https://github.com/umutsaray/warrant-index-survival-xai
+Private depo: https://github.com/umutsaray/warrant-index-xai
 
 Formül SHA256 değerleri değişmedi: `components.py` `7887cf447958726df0fc2fd17ffc5bc4d70b00de92b0888f36d3c4f49057e7aa`; `aggregation.py` `10179864a63104eca5aeec8145983f0d25b2539a191a5b2e2095eb4b3bf5ff68`.

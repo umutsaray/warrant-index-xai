@@ -867,7 +867,7 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/56_phase8_robustness.py`, saklı query matrisleri ve CoxPH N=50 attribution/log artefaktlarından sorgu-varyansı ve retry/direct diagnostiklerini üretir; yeni model fit, explainer, bootstrap, kalibrasyon veya sertifikasyon çalıştırmaz.
 - `PHASE8_QUERY_VARIANCE_CHECK.csv/.md`, dört degenerate fold-feature çiftinin tamamında 24-sorgu varyansının sıfırdan büyük olduğunu gösterir; sıfır-varyans hipotezi 0/4 doğrulanmış, 4/4 reddedilmiştir.
 - `PHASE8_COXPH_RETRY_BIAS_CHECK.csv/.md`, 28 retry ve 22 direct replikayı karşılaştırır. Beş feature nominal `|fark|>1.96×birleşik SE` eşiğini aşar; bu tanımlayıcı flag mevcut BH/BY kararlarını değiştirmez.
-- Public MIT deposu `https://github.com/umutsaray/warrant-index-survival-xai` adresindedir. `data/`, `results/`, patient-level parquet, model/checkpoint ve attribution tensörleri izleme dışıdır. `PHASE8_GITHUB_REPO_SUMMARY.md` yayın envanterini kaydeder.
+- Private depo `https://github.com/umutsaray/warrant-index-xai` adresindedir. `data/`, `results/`, patient-level parquet, model/checkpoint ve attribution tensörleri izleme dışıdır. `PHASE8_GITHUB_REPO_SUMMARY.md` yayın envanterini kaydeder.
 - `PHASE8_SUMMARY.md` üç adımı ve sürelerini; `tests/test_phase8_robustness.py` dört hipotez sonucunu, 28/22 partition'ı, beş nominal flag'i ve formül hashlerini doğrular.
 
 ## Faz 10 sorgu, fold ve retry duyarlılığı

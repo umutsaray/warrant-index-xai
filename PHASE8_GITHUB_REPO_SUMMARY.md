@@ -2,7 +2,7 @@
 
 ## Depo
 
-- Public URL: https://github.com/umutsaray/warrant-index-survival-xai
+- Private URL: https://github.com/umutsaray/warrant-index-xai
 - Varsayılan dal: `main`
 - İlk yayın commit'i: `f18ab12`
 - Lisans: MIT
