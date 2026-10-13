@@ -1,5 +1,15 @@
 # Faz 3 — TCGA-BRCA MANIFEST
 
+## Faz 12 tanısal duyarlılık denetimi
+
+- `experiments/60_phase12_scale_tie_query_audit.py`
+- `PHASE12_SCALE_TIE_QUERY_AUDIT.md`
+- `PHASE12_ADIM1_SCALE_GRID.csv`
+- `PHASE12_ADIM2_TIE_R.csv`
+- `PHASE12_ADIM3_QUERY_COHORT.csv`
+- `PHASE12_ADIM4_AGGREGATORS.csv`
+- `tests/test_phase12_outputs.py`
+
 Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival Prediction in Breast Cancer/`
 
 ## Adım 0: dosyalar ve doğrulama
