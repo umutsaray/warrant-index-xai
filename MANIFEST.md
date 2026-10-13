@@ -1,5 +1,15 @@
 # Faz 3 — TCGA-BRCA MANIFEST
 
+## Faz 13 RSF gezinme ve marjinal etki denetimi
+
+- `experiments/61_phase13_rsf_traversal.py`
+- `PHASE13_RSF_TRAVERSAL.md`
+- `PHASE13_ADIM1_SPLIT_SIDES.csv`
+- `PHASE13_ADIM2_PATH_VISITS.csv`
+- `PHASE13_ADIM3_EXTREME_COALITION.csv`
+- `PHASE13_FEATURE_SUMMARY.csv`
+- `tests/test_phase13_outputs.py`
+
 ## Faz 12 tanısal duyarlılık denetimi
 
 - `experiments/60_phase12_scale_tie_query_audit.py`
