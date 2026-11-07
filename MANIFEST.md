@@ -902,3 +902,9 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/59_phase11_fold1_na_sensitivity.py`, resmî NA kararını değiştirmeden başarısız replika 15'i dışlayan N=49 senaryosunu ve yalnız bu replikayı `penalizer=0.15` ile kurtaran N=50 tanı senaryosunu çalıştırır.
 - N=49 point/BH/BY sayıları 19/13/11, gevşetilmiş-ceza N=50 sayıları 20/13/11'dir. BH/BY kümeleri değişmez; point kümesine yalnız AJCC Stage II eklenir.
 - `PHASE11_FOLD1_NA_SENSITIVITY.csv/.md` sonuçları, kurtarılan katsayı normunu ve resmî Table 4 NA hücresinin korunduğunu kaydeder. `tests/test_phase11_fold1_na_sensitivity.py` iki senaryonun sayılarını, karar kümelerini, tanısal etiketi ve formül hashlerini doğrular.
+
+## Faz 14 Hakem 9 doğrulama paketi
+
+- `experiments/62_phase14_fast_checks.py` R evreni, kalibrasyon ve gen-seçimi tanılarını; `63_phase14_pair_duplicates.py` yinelenen replika çifti etkisini; `64_phase14_validation_ci.py` DeepSurv validasyon yapısını ve test GA'larını üretir.
+- `experiments/65_phase14_rsf_reproduce.py`, 50 bootstrap RSF ormanını deterministik olarak yeniden üretir ve 100/100 site-replika tensör eşleşmesinden sonra traversal tanısını çalıştırır. `66_phase14_g_standardization.py`, yerel ham METABRIC kapsamasını denetler.
+- `PHASE14_HAKEM9_DOGRULAMA.md` ile dokuz `PHASE14_ADIM*.csv` ham ve özet sonuçları taşır; `results/phase14/metadata.json` değişmeyen formül hashlerini kaydeder. Bu paket yalnız tanısaldır ve resmî kararları değiştirmez.

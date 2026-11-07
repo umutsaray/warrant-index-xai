@@ -1,0 +1,15 @@
+{
+  "phase": "14",
+  "diagnostic_only": true,
+  "official_results_modified": false,
+  "formula_sha256": {
+    "components.py": "7887cf447958726df0fc2fd17ffc5bc4d70b00de92b0888f36d3c4f49057e7aa",
+    "aggregation.py": "10179864a63104eca5aeec8145983f0d25b2539a191a5b2e2095eb4b3bf5ff68",
+    "certification.py": "76ab49716cc3ead6dec71656bbd60c6d71c1d76cab8a83b2f0662af6d6a05487"
+  },
+  "rsf_reproduction": {"site_replicates": 100, "matched_atol_1e_12": 100, "max_abs_difference": 1.7763568394002505e-15},
+  "limitations": [
+    "CoxPH/RSF fold-specific prediction vectors were not retained for all C-index confidence intervals",
+    "local raw METABRIC cache did not remap 16 of 27 active features"
+  ]
+}

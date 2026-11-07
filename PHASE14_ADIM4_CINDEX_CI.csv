@@ -1,0 +1,16 @@
+fold,model,test_c_index,bootstrap_valid_draws,ci95_lower,ci95_upper,status
+0,CoxPH,0.667704280155642,0,,,CI unavailable: fold-specific fitted predictions were not retained
+0,RSF,0.5385214007782101,0,,,CI unavailable: fold-specific fitted predictions were not retained
+0,DeepSurv,0.4964980544747082,2000,0.39182127263232136,0.6203783524904214,patient-cluster bootstrap CI
+1,CoxPH,0.7058823529411765,0,,,CI unavailable: fold-specific fitted predictions were not retained
+1,RSF,0.7896092743666809,0,,,CI unavailable: fold-specific fitted predictions were not retained
+1,DeepSurv,0.7191927866036926,2000,0.577753077623526,0.8380566892874781,patient-cluster bootstrap CI
+2,CoxPH,0.6811594202898551,0,,,CI unavailable: fold-specific fitted predictions were not retained
+2,RSF,0.636231884057971,0,,,CI unavailable: fold-specific fitted predictions were not retained
+2,DeepSurv,0.65,2000,0.5090368203473433,0.7613272415444243,patient-cluster bootstrap CI
+3,CoxPH,0.6551133932391956,0,,,CI unavailable: fold-specific fitted predictions were not retained
+3,RSF,0.7004706889174155,0,,,CI unavailable: fold-specific fitted predictions were not retained
+3,DeepSurv,0.5318784766795036,2000,0.3953358987629176,0.6574930894846122,patient-cluster bootstrap CI
+4,CoxPH,0.6501726121979287,0,,,CI unavailable: fold-specific fitted predictions were not retained
+4,RSF,0.6507479861910241,0,,,CI unavailable: fold-specific fitted predictions were not retained
+4,DeepSurv,0.6628308400460299,2000,0.5427052904081014,0.7912026812223791,patient-cluster bootstrap CI
