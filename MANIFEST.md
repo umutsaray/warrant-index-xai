@@ -920,3 +920,12 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/72_phase16_platform_shift.py`, METABRIC konum ve ölçek etkilerini dört önceden sabit biçimde ayrıştırır; `73_phase16_full_pool_ranking.py`, 60.660 RNA'nın tamamında Wald/LRT/skor/winsorized sıralamalarını üretir.
 - `experiments/74_phase16_r_pair_sim.py`, R null'u ile .81/.82/.83 sınır-yakın alternatiflerini resmî ve farklı-indeks paydalarıyla karşılaştırır.
 - `PHASE16_KAPANIS.md` sonuçları, `results/phase16/PHASE16_ADIM*.csv` ham değerleri taşır. Analiz tanısaldır ve resmî panel/kararları değiştirmez.
+
+## Faz 17 ölçeğe normalize v2 ve sentetik doğrulama
+
+- `PHASE17_PREREG.md`, model-özgü `s_m` ölçeklerini, `k/rho/kappa` ızgarasını ve altıncı exercised-signal bileşeni N'yi v2 hesabından önce sabitler; v2 post hoc/keşifseldir.
+- `experiments/75_phase17_v1_gate.py`, yeni kod yolunda 81/81 v1 satırını bileşen, `p_joint`, BH ve BY düzeyinde `atol=1e-12` ile yeniden üretir.
+- `experiments/76_phase17_point_grid.py` 3 model x 45 ayar x 27 özellik nokta ızgarasını; `77_phase17_v2_certification.py` birincil B=4,999 sertifikasyonu; `81_phase17_v2_neighbors.py` dört komşu ayarı üretir. Birincil v2 point/BH/BY her üç modelde 0/0/0; komşularda da BH/BY sıfırdır.
+- `experiments/78_phase17_baselines.py` B1 atıf GA, B2 rank-belirsizliği ve B3 nokta indekslerini karşılaştırır. `79_phase17_n_calibration.py` N için küçültülmüş 1000x499 bataryada Holm ihlali bulmaz.
+- `experiments/80_phase17_synthetic_feature_level.py`, 20 tekrarlı gerçek-değerli doğrulamayı üretir; 100 tekrar ölçülen >4 saat projeksiyonu nedeniyle ön-kayıtlı maliyet kapısında durdurulmuştur. V2 sıfır-etkili B sınıfını elerken A gücünü BH/BY'de .231/.094'e düşürür ve simetrik işaret-kayması D sınıfında yanlış sertifikalar sürer.
+- `PHASE17_V2.md` bütün adımları, exact GA/FDR karşılaştırmasını, değişmeyen formül hashlerini ve deletion testinin neden tanımlanamadığını raporlar. Resmî v1 sonuçları değişmez.
