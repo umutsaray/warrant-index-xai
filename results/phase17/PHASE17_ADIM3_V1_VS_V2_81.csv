@@ -1,0 +1,82 @@
+model,feature,v1_point,v1_BH,v1_BY,v2_point,v2_BH,v2_BY,v1_WI,v2_WI6,v2_N,change_BH
+CoxPH-v2,rna_ENSG00000244362.3,True,True,True,False,False,False,0.8299111960054959,0.4484403350179409,0.4484403350179409,dropped
+CoxPH-v2,rna_ENSG00000205330.4,False,False,False,False,False,False,0.6908923963674135,0.2187684550414919,0.9410639653697355,neither
+CoxPH-v2,rna_ENSG00000170255.7,False,False,False,False,False,False,0.7515377982964598,0.0,1.0,neither
+CoxPH-v2,rna_ENSG00000185926.1,False,False,False,False,False,False,0.7586287322810897,0.3173274878420611,0.7696679483919495,neither
+CoxPH-v2,rna_ENSG00000163833.8,False,False,False,False,False,False,0.7064267283267989,0.35586601694926734,0.9175539321559785,neither
+CoxPH-v2,rna_ENSG00000109208.5,False,False,False,False,False,False,0.6783365168727593,0.2367367346410032,0.9530724721020886,neither
+CoxPH-v2,rna_ENSG00000169800.14,True,True,True,False,False,False,0.8291531785127846,0.19332754623360285,0.19332754623360285,dropped
+CoxPH-v2,rna_ENSG00000133742.14,True,True,True,False,False,False,0.8247786602325663,0.7103168230344835,0.8724077414760013,dropped
+CoxPH-v2,rna_ENSG00000187416.12,False,False,False,False,False,False,0.7767145873127574,0.09144526201914138,0.9483097031644817,neither
+CoxPH-v2,rna_ENSG00000274391.5,False,False,False,False,False,False,0.7026533963339026,0.08719650162887516,0.9870665407829148,neither
+CoxPH-v2,rna_ENSG00000204246.3,True,True,True,False,False,False,0.8204979725880504,0.420113283272148,0.420113283272148,dropped
+CoxPH-v2,rna_ENSG00000006116.4,False,False,False,False,False,False,0.7674099393451963,0.2699045423908145,0.9641610820741401,neither
+CoxPH-v2,rna_ENSG00000182591.6,False,False,False,False,False,False,0.7481900740591805,0.0,0.9132422566479211,neither
+CoxPH-v2,rna_ENSG00000197683.5,False,False,False,False,False,False,0.6920371301229846,0.20468391949372455,0.9672515540256847,neither
+CoxPH-v2,rna_ENSG00000233452.7,False,False,False,False,False,False,0.672378941724473,0.25241609983466895,0.9896510079848723,neither
+CoxPH-v2,rna_ENSG00000140015.20,False,False,False,False,False,False,0.7903428169297275,0.2714039385660636,0.7732487419609086,neither
+CoxPH-v2,rna_ENSG00000185823.5,False,False,False,False,False,False,0.7564967661941631,0.1935442659002644,0.5493626534397158,neither
+CoxPH-v2,rna_ENSG00000165762.3,False,False,False,False,False,False,0.709426627793975,0.40869108503283036,0.9389266417599732,neither
+CoxPH-v2,rna_ENSG00000186965.5,True,True,True,False,False,False,0.829058007439429,0.13138149373675637,0.13138149373675637,dropped
+CoxPH-v2,rna_ENSG00000205126.2,False,False,False,False,False,False,0.7015448543949595,0.3955307981102152,0.9491381515950478,neither
+CoxPH-v2,rna_ENSG00000244057.4,False,False,False,False,False,False,0.7835669045943503,0.0,0.8149496607368562,neither
+CoxPH-v2,rna_ENSG00000254834.4,True,True,True,False,False,False,0.8297335880164876,0.4626308814763892,0.4626308814763892,dropped
+CoxPH-v2,clin_numeric__age_at_index.demographic,True,True,True,False,False,False,0.9724093654428104,0.4233662739181693,1.0,dropped
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,False,False,False,False,False,False,0.7430588787239032,0.06777314267885748,0.9861752949375924,neither
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,True,False,False,False,False,False,0.8298099929627022,0.2543444474894424,0.9940731204498247,neither
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,True,True,True,False,False,False,0.850917122071037,0.0,1.0,dropped
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,False,False,False,False,False,False,0.6878636774907005,0.15378230284394345,0.82,neither
+RSF,rna_ENSG00000244362.3,True,True,True,False,False,False,0.9271742543171116,0.0,0.0,dropped
+RSF,rna_ENSG00000205330.4,True,True,True,False,False,False,0.9037519623233912,0.0,0.0,dropped
+RSF,rna_ENSG00000170255.7,False,False,False,False,False,False,0.657662160058314,0.0,0.0,neither
+RSF,rna_ENSG00000185926.1,True,True,True,False,False,False,0.9271742543171116,0.0,0.0,dropped
+RSF,rna_ENSG00000163833.8,False,False,False,False,False,False,0.7471271585557292,0.0,0.8646119619924914,neither
+RSF,rna_ENSG00000109208.5,False,False,False,False,False,False,0.7766248037676595,0.0,0.9862828132108054,neither
+RSF,rna_ENSG00000169800.14,True,True,True,False,False,False,0.9271742543171116,0.0,0.0,dropped
+RSF,rna_ENSG00000133742.14,False,False,False,False,False,False,0.7885428381142978,0.0,0.9648890301619134,neither
+RSF,rna_ENSG00000187416.12,False,False,False,False,False,False,0.7344583987441131,0.4304208179209553,1.0,neither
+RSF,rna_ENSG00000274391.5,False,False,False,False,False,False,0.7558398744113028,0.0,0.0,neither
+RSF,rna_ENSG00000204246.3,True,True,True,False,False,False,0.927833594976452,0.0,0.0,dropped
+RSF,rna_ENSG00000006116.4,True,False,False,False,False,False,0.8075039246467811,0.41886009206508046,0.8799167976449059,neither
+RSF,rna_ENSG00000182591.6,True,False,False,False,False,False,0.9260753532182106,0.030513876163468404,0.030513876163468404,neither
+RSF,rna_ENSG00000197683.5,False,False,False,False,False,False,0.7779434850863417,0.0,0.0,neither
+RSF,rna_ENSG00000233452.7,True,False,False,False,False,False,0.8066860854369533,0.0,1.0,neither
+RSF,rna_ENSG00000140015.20,False,False,False,False,False,False,0.726640502354788,0.2987561806907282,0.969487671623133,neither
+RSF,rna_ENSG00000185823.5,True,False,False,False,False,False,0.8122605965463108,0.601929852848357,0.9406940797414747,neither
+RSF,rna_ENSG00000165762.3,False,False,False,False,False,False,0.7371114599686027,0.0,0.9176444702919316,neither
+RSF,rna_ENSG00000186965.5,True,True,True,False,False,False,0.9271742543171116,0.0,0.0,dropped
+RSF,rna_ENSG00000205126.2,True,True,True,False,False,False,0.9245525902668762,0.6974469677190931,0.6974469677190931,dropped
+RSF,rna_ENSG00000244057.4,True,False,False,False,False,False,0.8224489795918368,0.0,0.0,neither
+RSF,rna_ENSG00000254834.4,True,True,True,False,False,False,0.9271742543171116,0.0,0.0,dropped
+RSF,clin_numeric__age_at_index.demographic,False,False,False,False,False,False,0.7613029827315543,0.13967012751476637,1.0,neither
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,True,True,True,False,False,False,0.926530612244898,0.055900184224657645,0.055900184224657645,dropped
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,True,True,True,False,False,False,0.9240188383045528,0.46042980037902703,0.46042980037902703,dropped
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,True,True,True,False,False,False,0.9115541601255892,0.509519531007487,0.509519531007487,dropped
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,True,True,True,False,False,False,0.9271742543171116,0.0,0.0,dropped
+DeepSurv,rna_ENSG00000244362.3,False,False,False,False,False,False,0.7061224489795921,0.0,0.0,neither
+DeepSurv,rna_ENSG00000205330.4,False,False,False,False,False,False,0.7355416012558875,0.31249019136685996,0.8989576153070312,neither
+DeepSurv,rna_ENSG00000170255.7,False,False,False,False,False,False,0.7055729984301422,0.001660798476559422,1.0,neither
+DeepSurv,rna_ENSG00000185926.1,False,False,False,False,False,False,0.7617896389324962,0.0,0.0,neither
+DeepSurv,rna_ENSG00000163833.8,False,False,False,False,False,False,0.7465620094191527,0.0,0.70983990145497,neither
+DeepSurv,rna_ENSG00000109208.5,False,False,False,False,False,False,0.7300941915227632,0.008869077872052327,1.0,neither
+DeepSurv,rna_ENSG00000169800.14,False,False,False,False,False,False,0.7305651491365786,0.0,0.0,neither
+DeepSurv,rna_ENSG00000133742.14,False,False,False,False,False,False,0.7330926216640505,0.0,0.6756952975653522,neither
+DeepSurv,rna_ENSG00000187416.12,False,False,False,False,False,False,0.6948822605965469,0.0,0.9621065824949518,neither
+DeepSurv,rna_ENSG00000274391.5,False,False,False,False,False,False,0.6761224489795924,0.08927417022284334,0.9818584910958907,neither
+DeepSurv,rna_ENSG00000204246.3,False,False,False,False,False,False,0.7219937205651494,0.0,0.0,neither
+DeepSurv,rna_ENSG00000006116.4,False,False,False,False,False,False,0.7680219780219787,0.5215727025630774,0.8234181911037862,neither
+DeepSurv,rna_ENSG00000182591.6,False,False,False,False,False,False,0.6554631083202491,0.0,0.0,neither
+DeepSurv,rna_ENSG00000197683.5,False,False,False,False,False,False,0.7279277864992156,0.0,0.7908814113306861,neither
+DeepSurv,rna_ENSG00000233452.7,False,False,False,False,False,False,0.6730926216640496,0.0,0.916106529826587,neither
+DeepSurv,rna_ENSG00000140015.20,False,False,False,False,False,False,0.7480690737833594,0.0,0.6990548511981917,neither
+DeepSurv,rna_ENSG00000185823.5,False,False,False,False,False,False,0.6967346938775514,0.0,0.6547232622116028,neither
+DeepSurv,rna_ENSG00000165762.3,False,False,False,False,False,False,0.7287755102040827,0.0,0.9297313398166215,neither
+DeepSurv,rna_ENSG00000186965.5,False,False,False,False,False,False,0.737676609105181,0.0,0.0,neither
+DeepSurv,rna_ENSG00000205126.2,False,False,False,False,False,False,0.7322762951334385,0.22141282586905342,0.9359558419740801,neither
+DeepSurv,rna_ENSG00000244057.4,False,False,False,False,False,False,0.6617425431711141,0.0,0.0,neither
+DeepSurv,rna_ENSG00000254834.4,False,False,False,False,False,False,0.7228257456828887,0.0,0.0,neither
+DeepSurv,clin_numeric__age_at_index.demographic,False,False,False,False,False,False,0.7003139717425441,0.0,0.9576543556264743,neither
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,False,False,False,False,False,False,0.7755259026687606,0.4389028608395479,0.8266946941305284,neither
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,False,False,False,False,False,False,0.7705337519623239,0.4737317826117745,0.9459200401157193,neither
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,False,False,False,False,False,False,0.7804238618524336,0.42093656187648576,0.8466439031484917,neither
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,False,False,False,False,False,False,0.7904081632653063,0.0,0.0,neither
