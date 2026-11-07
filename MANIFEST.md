@@ -908,3 +908,9 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/62_phase14_fast_checks.py` R evreni, kalibrasyon ve gen-seçimi tanılarını; `63_phase14_pair_duplicates.py` yinelenen replika çifti etkisini; `64_phase14_validation_ci.py` DeepSurv validasyon yapısını ve test GA'larını üretir.
 - `experiments/65_phase14_rsf_reproduce.py`, 50 bootstrap RSF ormanını deterministik olarak yeniden üretir ve 100/100 site-replika tensör eşleşmesinden sonra traversal tanısını çalıştırır. `66_phase14_g_standardization.py`, yerel ham METABRIC kapsamasını denetler.
 - `PHASE14_HAKEM9_DOGRULAMA.md` ile dokuz `PHASE14_ADIM*.csv` ham ve özet sonuçları taşır; `results/phase14/metadata.json` değişmeyen formül hashlerini kaydeder. Bu paket yalnız tanısaldır ve resmî kararları değiştirmez.
+
+## Faz 15 kapanış tanıları
+
+- `experiments/67_phase15_deepsurv_val_nooverlap.py` dondurulmuş DeepSurv checkpoint'lerini örtüşmesiz validasyon alt kümelerinde skorlar; `68_phase15_sparse_leverage.py` resmî Wald seçimini LRT/skor/winsorized tanılarıyla karşılaştırır.
+- `experiments/69_phase15_krtap_residual.py` iki KRTAP11-1 artık ormanını yeniden üretir; `70_phase15_metabric_standardization.py` doğru Phase 7.2 cache eşlemesini ve Cox G standardizasyon duyarlılığını doğrular; `71_phase15_duplicate_sim.py` küçültülmüş çift-payda benzetimini yürütür.
+- `PHASE15_KAPANIS.md` bulguları, `results/phase15/PHASE15_ADIM*.csv` ham değerleri taşır. Paket tanısaldır; resmî panel, eşikler ve kararlar değişmez.

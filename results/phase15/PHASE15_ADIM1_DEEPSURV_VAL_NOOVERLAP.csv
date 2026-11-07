@@ -1,0 +1,16 @@
+fold,subset,rows,patients,events,c_index,ci95_lower,ci95_upper,bootstrap_draws,checkpoint_val_c,test_c_index,fit_val_overlap_patients,epoch_log_status
+0,all,102,101,16,0.8528138528138528,,,0,0.8528138528138528,0.4964980544747082,15,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+0,no_fit_patient_overlap,87,86,9,0.8480392156862745,0.6642087140900306,0.9544240900383141,2000,0.8528138528138528,0.4964980544747082,15,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+0,overlap_only,15,15,7,0.7567567567567568,,,0,0.8528138528138528,0.4964980544747082,15,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+1,all,102,101,16,0.8236658932714617,,,0,0.8236658932714617,0.7191927866036926,17,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+1,no_fit_patient_overlap,85,84,12,0.8576104746317512,0.7370435028630035,0.9508509232472586,2000,0.8236658932714617,0.7191927866036926,17,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+1,overlap_only,17,17,4,0.45454545454545453,,,0,0.8236658932714617,0.7191927866036926,17,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+2,all,102,102,16,0.8853695324283559,,,0,0.8853695324283559,0.65,19,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+2,no_fit_patient_overlap,83,83,10,0.9028571428571428,0.8065373275150372,0.9662921348314607,2000,0.8853695324283559,0.65,19,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+2,overlap_only,19,19,6,0.875,,,0,0.8853695324283559,0.65,19,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+3,all,101,101,16,0.8553137003841229,,,0,0.8553137003841229,0.5318784766795036,19,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+3,no_fit_patient_overlap,82,82,7,0.8583815028901735,0.7026008885597927,0.9705882352941176,2000,0.8553137003841229,0.5318784766795036,19,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+3,overlap_only,19,19,9,0.8873239436619719,,,0,0.8553137003841229,0.5318784766795036,19,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+4,all,101,99,16,0.9634920634920635,,,0,0.9634920634920635,0.6628308400460299,15,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+4,no_fit_patient_overlap,86,84,10,0.9671641791044776,0.903310169198895,1.0,2000,0.9634920634920635,0.6628308400460299,15,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
+4,overlap_only,15,15,6,0.9473684210526315,,,0,0.9634920634920635,0.6628308400460299,15,yapılamadı: epoch-bazlı eğitim günlüğü checkpoint içinde saklı değil
