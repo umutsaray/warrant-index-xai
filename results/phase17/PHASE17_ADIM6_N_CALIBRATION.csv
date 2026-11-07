@@ -1,0 +1,19 @@
+model,component,scenario,nominal_alpha,rejections,outer,inner,empirical_type1,exact_95ci_lower,exact_95ci_upper,one_sided_binomial_p,amplitude,label,holm_p_within_model_6,anti_conservative_holm
+CoxPH-v2,N,single_active,0.01,9,1000,499,0.009,0.004123395660342473,0.017015783069894586,0.6683127368008389,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+CoxPH-v2,N,single_active,0.05,43,1000,499,0.043,0.0312911704560926,0.057486257961972334,0.8628672954505396,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+CoxPH-v2,N,single_active,0.1,93,1000,499,0.093,0.07571840260686478,0.11271941770115596,0.7838749825381865,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+CoxPH-v2,N,tie,0.01,0,1000,499,0.0,0.0,0.003682083896865671,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+CoxPH-v2,N,tie,0.05,3,1000,499,0.003,0.0006190999316495713,0.008742023238478303,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+CoxPH-v2,N,tie,0.1,12,1000,499,0.012,0.006215525559595244,0.02086767959103641,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+RSF,N,single_active,0.01,5,1000,499,0.005,0.00162541951756276,0.011629470559812147,0.9713136000009955,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+RSF,N,single_active,0.05,49,1000,499,0.049,0.03646705917204782,0.06426605314016964,0.5779861611339221,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+RSF,N,single_active,0.1,98,1000,499,0.098,0.08027750545100505,0.11812845443123607,0.598846193084521,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+RSF,N,tie,0.01,0,1000,499,0.0,0.0,0.003682083896865671,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+RSF,N,tie,0.05,4,1000,499,0.004,0.0010909079877259714,0.010209664683929871,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+RSF,N,tie,0.1,11,1000,499,0.011,0.005503594192313587,0.019596628222016514,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+DeepSurv,N,single_active,0.01,7,1000,499,0.007,0.002818858759620524,0.014369194978918632,0.8711233738301127,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+DeepSurv,N,single_active,0.05,36,1000,499,0.036,0.02533891492983775,0.04949291171801237,0.9857800420883938,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+DeepSurv,N,single_active,0.1,91,1000,499,0.091,0.0738991299424797,0.11055149410186922,0.8417618586065593,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+DeepSurv,N,tie,0.01,0,1000,499,0.0,0.0,0.003682083896865671,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+DeepSurv,N,tie,0.05,0,1000,499,0.0,0.0,0.003682083896865671,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
+DeepSurv,N,tie,0.1,7,1000,499,0.007,0.002818858759620524,0.014369194978918632,1.0,0.09,reduced 1000x499 v2 N calibration; not official gate,1.0,False
