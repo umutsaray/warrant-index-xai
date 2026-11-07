@@ -914,3 +914,9 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/67_phase15_deepsurv_val_nooverlap.py` dondurulmuş DeepSurv checkpoint'lerini örtüşmesiz validasyon alt kümelerinde skorlar; `68_phase15_sparse_leverage.py` resmî Wald seçimini LRT/skor/winsorized tanılarıyla karşılaştırır.
 - `experiments/69_phase15_krtap_residual.py` iki KRTAP11-1 artık ormanını yeniden üretir; `70_phase15_metabric_standardization.py` doğru Phase 7.2 cache eşlemesini ve Cox G standardizasyon duyarlılığını doğrular; `71_phase15_duplicate_sim.py` küçültülmüş çift-payda benzetimini yürütür.
 - `PHASE15_KAPANIS.md` bulguları, `results/phase15/PHASE15_ADIM*.csv` ham değerleri taşır. Paket tanısaldır; resmî panel, eşikler ve kararlar değişmez.
+
+## Faz 16 tam-havuz, platform ve R-payda tanıları
+
+- `experiments/72_phase16_platform_shift.py`, METABRIC konum ve ölçek etkilerini dört önceden sabit biçimde ayrıştırır; `73_phase16_full_pool_ranking.py`, 60.660 RNA'nın tamamında Wald/LRT/skor/winsorized sıralamalarını üretir.
+- `experiments/74_phase16_r_pair_sim.py`, R null'u ile .81/.82/.83 sınır-yakın alternatiflerini resmî ve farklı-indeks paydalarıyla karşılaştırır.
+- `PHASE16_KAPANIS.md` sonuçları, `results/phase16/PHASE16_ADIM*.csv` ham değerleri taşır. Analiz tanısaldır ve resmî panel/kararları değiştirmez.

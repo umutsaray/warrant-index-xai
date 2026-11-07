@@ -1,0 +1,73 @@
+component,scenario,target_center,interpretation,denominator,nominal_alpha,rejections,outer,inner,rate,exact_95ci_lower,exact_95ci_upper,label
+R,single_active,0.8,null,official_duplicates_in_denominator,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.8,null,official_duplicates_in_denominator,0.05,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.8,null,official_duplicates_in_denominator,0.1,2,1000,499,0.002,0.00024230111687723185,0.007205838911457497,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.8,null,distinct_original_pairs_only,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.8,null,distinct_original_pairs_only,0.05,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.8,null,distinct_original_pairs_only,0.1,6,1000,499,0.006,0.0022049824851513773,0.013013423270974496,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.81,fixed alternative,official_duplicates_in_denominator,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.81,fixed alternative,official_duplicates_in_denominator,0.05,2,1000,499,0.002,0.00024230111687723185,0.007205838911457497,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.81,fixed alternative,official_duplicates_in_denominator,0.1,31,1000,499,0.031,0.021158171970208632,0.043715085006238906,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.81,fixed alternative,distinct_original_pairs_only,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.81,fixed alternative,distinct_original_pairs_only,0.05,9,1000,499,0.009,0.004123395660342473,0.017015783069894586,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.81,fixed alternative,distinct_original_pairs_only,0.1,162,1000,499,0.162,0.13968511158457791,0.1863246549247689,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.82,fixed alternative,official_duplicates_in_denominator,0.01,1,1000,499,0.001,2.531748749129404e-05,0.005558924279826672,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.82,fixed alternative,official_duplicates_in_denominator,0.05,467,1000,499,0.467,0.43571397547369906,0.4984808294673215,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.82,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.82,fixed alternative,distinct_original_pairs_only,0.01,21,1000,499,0.021,0.013045192290387683,0.0319223351804155,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.82,fixed alternative,distinct_original_pairs_only,0.05,808,1000,499,0.808,0.7821951822437158,0.8319766825284644,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.82,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.83,fixed alternative,official_duplicates_in_denominator,0.01,390,1000,499,0.39,0.35963133997261726,0.4210183157288174,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.83,fixed alternative,official_duplicates_in_denominator,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.83,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.83,fixed alternative,distinct_original_pairs_only,0.01,644,1000,499,0.644,0.6134334741710825,0.6737157335517636,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.83,fixed alternative,distinct_original_pairs_only,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.83,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.85,fixed alternative,official_duplicates_in_denominator,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.85,fixed alternative,official_duplicates_in_denominator,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.85,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.85,fixed alternative,distinct_original_pairs_only,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.85,fixed alternative,distinct_original_pairs_only,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.85,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.9,fixed alternative,official_duplicates_in_denominator,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.9,fixed alternative,official_duplicates_in_denominator,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.9,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.9,fixed alternative,distinct_original_pairs_only,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.9,fixed alternative,distinct_original_pairs_only,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,single_active,0.9,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.8,null,official_duplicates_in_denominator,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.8,null,official_duplicates_in_denominator,0.05,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.8,null,official_duplicates_in_denominator,0.1,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.8,null,distinct_original_pairs_only,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.8,null,distinct_original_pairs_only,0.05,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.8,null,distinct_original_pairs_only,0.1,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.81,fixed alternative,official_duplicates_in_denominator,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.81,fixed alternative,official_duplicates_in_denominator,0.05,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.81,fixed alternative,official_duplicates_in_denominator,0.1,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.81,fixed alternative,distinct_original_pairs_only,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.81,fixed alternative,distinct_original_pairs_only,0.05,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.81,fixed alternative,distinct_original_pairs_only,0.1,25,1000,499,0.025,0.01624253569688223,0.03668482305192304,reduced diagnostic; not official 2000x999 gate
+R,tie,0.82,fixed alternative,official_duplicates_in_denominator,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.82,fixed alternative,official_duplicates_in_denominator,0.05,210,1000,499,0.21,0.18513884636850603,0.2365809848578131,reduced diagnostic; not official 2000x999 gate
+R,tie,0.82,fixed alternative,official_duplicates_in_denominator,0.1,999,1000,499,0.999,0.9944410757201734,0.9999746825125088,reduced diagnostic; not official 2000x999 gate
+R,tie,0.82,fixed alternative,distinct_original_pairs_only,0.01,0,1000,499,0.0,0.0,0.003682083896865671,reduced diagnostic; not official 2000x999 gate
+R,tie,0.82,fixed alternative,distinct_original_pairs_only,0.05,661,1000,499,0.661,0.6307197702849167,0.6903287623254493,reduced diagnostic; not official 2000x999 gate
+R,tie,0.82,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.83,fixed alternative,official_duplicates_in_denominator,0.01,168,1000,499,0.168,0.14533224927472727,0.19264105541450535,reduced diagnostic; not official 2000x999 gate
+R,tie,0.83,fixed alternative,official_duplicates_in_denominator,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.83,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.83,fixed alternative,distinct_original_pairs_only,0.01,428,1000,499,0.428,0.3970838977135092,0.45934120414461477,reduced diagnostic; not official 2000x999 gate
+R,tie,0.83,fixed alternative,distinct_original_pairs_only,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.83,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.85,fixed alternative,official_duplicates_in_denominator,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.85,fixed alternative,official_duplicates_in_denominator,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.85,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.85,fixed alternative,distinct_original_pairs_only,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.85,fixed alternative,distinct_original_pairs_only,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.85,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.9,fixed alternative,official_duplicates_in_denominator,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.9,fixed alternative,official_duplicates_in_denominator,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.9,fixed alternative,official_duplicates_in_denominator,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.9,fixed alternative,distinct_original_pairs_only,0.01,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.9,fixed alternative,distinct_original_pairs_only,0.05,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
+R,tie,0.9,fixed alternative,distinct_original_pairs_only,0.1,1000,1000,499,1.0,0.9963179161031344,1.0,reduced diagnostic; not official 2000x999 gate
