@@ -929,3 +929,14 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `experiments/78_phase17_baselines.py` B1 atıf GA, B2 rank-belirsizliği ve B3 nokta indekslerini karşılaştırır. `79_phase17_n_calibration.py` N için küçültülmüş 1000x499 bataryada Holm ihlali bulmaz.
 - `experiments/80_phase17_synthetic_feature_level.py`, 20 tekrarlı gerçek-değerli doğrulamayı üretir; 100 tekrar ölçülen >4 saat projeksiyonu nedeniyle ön-kayıtlı maliyet kapısında durdurulmuştur. V2 sıfır-etkili B sınıfını elerken A gücünü BH/BY'de .231/.094'e düşürür ve simetrik işaret-kayması D sınıfında yanlış sertifikalar sürer.
 - `PHASE17_V2.md` bütün adımları, exact GA/FDR karşılaştırmasını, değişmeyen formül hashlerini ve deletion testinin neden tanımlanamadığını raporlar. Resmî v1 sonuçları değişmez.
+
+## Faz 18 tolerans profili ve sentetik ölçek
+
+- `PHASE18_PREREG.md`, 60'ar ayrık CAL/EVAL tohumu, k x kappa ızgarası, k* kuralı, AUC ve sağ-sansürlü k-enter kurallarını sonuçlardan önce sabitler.
+- `experiments/82_phase18_gate.py`, Faz 17'nin 81 birincil satırını ve 20 sentetik tekrar/600 BH-BY kararını gerçekten yeniden üretir; kapı tam eşleşmeyle geçer.
+- `83_phase18_kprofile.py`, gerçek veride k=.25–64 kaba profilini ve .25–128 ince giriş-k profilini üretir. CoxPH/RSF/DeepSurv giriş sayıları 8/2/0; Cox–RSF Kendall tau .178'dir.
+- `84_phase18_synth_breakdown.py`, sentetik `s_m_sim` medyanını .02553 ve v1 `a/s_m` oranını 19.59 bulur; A gücünün baskın sınırlayıcısı G_claim'dir.
+- `85_phase18_synth_point_grid.py` 60 CAL seed ve 52.200 satırlık k x kappa nokta profilini; `86_phase18_auc.py` 9.999 repeat-bootstrap AUC profilini üretir. Matched v2-WI5, v1'in A–E %100 geçişini aynen üretir.
+- `87_phase18_kstar.py` ve `89_phase18_kstar_eval_boot.py`, önceden yazılı k*=.25 kuralını held-out EVAL tohumlarında sınar. B yanlış-geçişi sıfırdır, fakat A–E point/BH/BY de sıfır olduğundan çözüm trivialdir.
+- `88_phase18_boot_cells.py`, ilk 20 CAL seed'de k=1/2/4 ve B=999 dar bootstrap profilini üretir. K arttıkça A gücü artarken D/E yanlış sertifikaları da yaklaşık aynı hızda artar.
+- `PHASE18_KAPANIS.md`, H1–H5 kararlarını, süreleri, değişmeyen hashleri ve METABRIC outcome yokluğu nedeniyle deletion adımının yapılamadığını raporlar. V1/v2 birincil ve resmî kararlar değişmez.
