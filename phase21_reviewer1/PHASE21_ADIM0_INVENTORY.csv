@@ -1,0 +1,26 @@
+section,cohort,n,events,event_rate,censor_rate,time_unit,median_followup_reverse_km,endpoint,time_origin,event_coding,category,best_epoch,validation_c_index,test_c_index,patient_overlap,note
+survival_endpoint,TCGA fold-0 train,674,106.0,0.1572700296735905,0.8427299703264095,days,984.0,overall survival,diagnosis,"1=death, 0=right-censored",,,,,,
+survival_endpoint,TCGA fold-0 test,168,26.0,0.15476190476190477,0.8452380952380952,days,1074.0,overall survival,diagnosis,"1=death, 0=right-censored",,,,,,
+survival_endpoint,METABRIC expression cohort,1979,1143.0,0.5775644264780192,0.4224355735219808,months,195.533333333333,overall survival,diagnosis,"1=death, 0=right-censored",,,,,,
+tcga_sample_type,TCGA retained 842 rows,762,,,,,,,,,primary solid tumor,,,,,
+tcga_sample_type,TCGA retained 842 rows,75,,,,,,,,,other,,,,,
+tcga_sample_type,TCGA retained 842 rows,5,,,,,,,,,metastatic,,,,,
+tcga_repeated_patients,TCGA retained 842 rows,769,,,,,,,,,unique patients,,,,,
+tcga_repeated_patients,TCGA retained 842 rows,71,,,,,,,,,patients with >1 retained sample,,,,,
+tcga_repeated_patients,TCGA retained 842 rows,144,,,,,,,,,rows belonging to repeated patients,,,,,
+clinical_missing_before_imputation,TCGA 842 retained rows,0,,,,,,,,,age_at_index.demographic,,,,,
+clinical_missing_before_imputation,TCGA 842 retained rows,0,,,,,,,,,gender.demographic,,,,,
+clinical_missing_before_imputation,TCGA 842 retained rows,0,,,,,,,,,race.demographic,,,,,
+clinical_missing_before_imputation,TCGA 842 retained rows,0,,,,,,,,,ethnicity.demographic,,,,,
+clinical_missing_before_imputation,TCGA 842 retained rows,6,,,,,,,,,ajcc_pathologic_stage.diagnoses,,,,,
+exclusion_imputation,TCGA,11,,,,,,,,,rows excluded for missing survival flags,,,,,
+exclusion_imputation,TCGA fold-0 train,729119,,,,,,,,,methylation missing cells before KNN,,,,,
+exclusion_imputation,TCGA fold-0 test,182284,,,,,,,,,methylation missing cells before KNN,,,,,
+exclusion_imputation,TCGA fold-0 train/test,0,,,,,,,,,missing cells after fitted-train imputers,,,,,
+deepsurv_history,fold 0,68,,,,,,,,,row_level_validation,38.0,0.8528138528138528,0.4964980544747082,15.0,
+deepsurv_history,fold 0,61,,,,,,,,,patient_grouped_validation,31.0,0.9421841541755889,0.488715953307393,0.0,
+deepsurv_history,folds 1-4,0,,,,,,,,,epoch histories preserved,,,,,
+bootstrap_artifacts,RSF,0,,,,,,,,,serialized bootstrap model objects,,,,,100 compact attribution/checkpoint arrays exist; model objects are not serialized
+bootstrap_artifacts,RSF,50,,,,,,,,,deterministic reproduction,,,,,seed 20260917 and frozen Phase 7.2 script/input hashes are recorded
+bootstrap_artifacts,DeepSurv,0,,,,,,,,,serialized bootstrap model objects,,,,,50 compact attribution/checkpoint arrays exist; model objects are not serialized
+bootstrap_artifacts,DeepSurv,50,,,,,,,,,deterministic reproduction,,,,,seed 20260917 and frozen Phase 7.2 script/input hashes are recorded
