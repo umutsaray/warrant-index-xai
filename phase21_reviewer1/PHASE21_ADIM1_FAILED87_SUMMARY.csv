@@ -1,0 +1,2 @@
+failed_n,zero_rate_min,zero_rate_median,zero_rate_max,nonzero_n_min,nonzero_n_median,nonzero_n_max,nonzero_events_min,nonzero_events_median,nonzero_events_max,complete_separation_n,ridge_sign_agreement_n,ridge_sign_agreement_rate
+87,0.8427299703264095,0.9925816023738872,0.9970326409495548,2,5.0,106,1,2.0,20,3,31,0.3563218390804598
