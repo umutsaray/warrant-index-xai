@@ -87,3 +87,7 @@ Birincil v1/v2 sonuçları ve k* kuralı değiştirilmeyecek; tüm hücreler ve 
 ## EK 1 — `k_enter` sağ-sansürlü sıra kuralı
 
 Bu ek ADIM 5 sonucu hesaplanmadan önce kaydedilmiştir. İnce ızgara `numpy.geomspace(0.25, 128, 60)` uçları dahil kullanılır. Ham tabloda 128'e kadar girmeyen çiftler `girmedi` olarak kalır. Spearman/Kendall sıralama hesaplarında bu çiftlerin tümü, gözlenen bütün giriş değerlerinden sonra aynı bağlı sırayı alır (sayısal yardımcı değer 256); böylece sansürlü çiftler arasında yapay bir sıra kurulmaz. Medyan/IQR yalnız gözlenen `k_enter` değerleri için verilir ve sansür sayısı ayrıca raporlanır.
+
+## EK 2 — sınırlı bootstrap iç-tohum türetimi
+
+Bu ek ADIM 2 bootstrap hücreleri hesaplanmadan önce kaydedilmiştir. Faz 17 ölçümünden 21 hücrelik tam planın altı saati aşacağı öngörüldüğü için önceden tanımlı sınırlı plan `(k,kappa)=(1,.25),(2,.25),(4,.25)` ve ilk 20 `CAL_SEEDS` ile uygulanır. Her dış tekrarın B=999 replika-indeksi RNG tohumu `CAL_SEED + 99000` olarak türetilir. EVAL bootstrap yapılırsa aynı ayrık kural `EVAL_SEED + 199000` olur.
