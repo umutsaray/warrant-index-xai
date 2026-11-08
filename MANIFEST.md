@@ -940,3 +940,25 @@ Kaynak: `../Multi-Omics Data Fusion with Explainable Deep Learning for Survival 
 - `87_phase18_kstar.py` ve `89_phase18_kstar_eval_boot.py`, önceden yazılı k*=.25 kuralını held-out EVAL tohumlarında sınar. B yanlış-geçişi sıfırdır, fakat A–E point/BH/BY de sıfır olduğundan çözüm trivialdir.
 - `88_phase18_boot_cells.py`, ilk 20 CAL seed'de k=1/2/4 ve B=999 dar bootstrap profilini üretir. K arttıkça A gücü artarken D/E yanlış sertifikaları da yaklaşık aynı hızda artar.
 - `PHASE18_KAPANIS.md`, H1–H5 kararlarını, süreleri, değişmeyen hashleri ve METABRIC outcome yokluğu nedeniyle deletion adımının yapılamadığını raporlar. V1/v2 birincil ve resmî kararlar değişmez.
+
+## Faz 20 public depo hazırlığı
+
+- `PHASE20_ADIM1_TARAMA.md`, izlenen Git ağacı, erişilebilir geçmiş ve yerel çalışma ağacındaki hasta-düzeyi/yeniden dağıtılamaz veri taramasını kaydeder. Git'te hasta barkodu, ham veri veya gizli anahtar bulunmamış; yerel hasta-düzeyi cache/matris/model/tensörler `.gitignore` ile dışlanmıştır.
+- `LICENSE` mevcut MIT kod lisansıdır; `LICENSE-DATA`, depo tarafından üretilen türetilmiş sonuç ve raporlar için resmî Creative Commons Attribution 4.0 International legal code metnidir.
+- `CITATION.cff` yazılım atıf metadatasını; `.zenodo.json` DOI içermeyen Zenodo taslağını taşır.
+- `README.md`, v1/v2 analiz katmanlarını, Faz 17–18 bulgularını, yeniden üretim sırasını, veri erişimini ve ikili lisans kapsamını belgeler. Bu depo anlık görüntüsünde bağımsız Faz 19 dosyası yoktur.
+- `PHASE20_KAPANIS.md`, test, bütünlük, commit/tag ve atlanan alt adım kayıtlarını içerir.
+
+### Faz 17–20 belge SHA256 tablosu
+
+| Dosya | SHA256 |
+|---|---|
+| `PHASE17_PREREG.md` | `5771FC54AE6D0DEE3DED29E1FE3F56B027B091FAB99BDF75B512E61DD918EDBF` |
+| `PHASE17_V2.md` | `4BBF61AD64C879E80DA84750EDFACEEAE4F3E72775FB2D4A436969F2A54CDAD0` |
+| `PHASE18_PREREG.md` | `D425E9EAD3C519A7B369D502E85207CEBAE5254CB87913E503AABDF04E3EF283` |
+| `PHASE18_KAPANIS.md` | `4BB83F316EA0A1A424FAEFF8E3CAE5C337FB2B4EAE07D5F2948597DDA7555025` |
+| `PHASE20_ADIM1_TARAMA.md` | `D92E3B017E9A66FCED44D48304E5A90D224F7A438B3AB611B0433942B76F96E3` |
+| `LICENSE-DATA` | `9BA9550AD48438D0836DDAB3DA480B3B69FFA0AAC7B7878B5A0039E7AB429411` |
+| `CITATION.cff` | `A8C8670E5C04AFD54CD5B59261FC8A157F755384D34F1C172D288CAD9B5EB024` |
+| `.zenodo.json` | `8163B5A35264F98F7B0B87346423C677008009D83605E754441BA0491D2E87A0` |
+| `README.md` | `8E0DB2A0C0E6DB9161848D03FCEF42C64B2619A64240728185FAFB66549BDC5A` |

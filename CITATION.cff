@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its derived results, please cite it using the metadata below."
+title: "The Warrant Index: Statistically Certified Survival-XAI Audits"
+type: software
+authors:
+  - family-names: Saray
+    given-names: Umut
+    orcid: "https://orcid.org/0000-0003-3339-6876"
+repository-code: "https://github.com/umutsaray/warrant-index-xai"
+license: MIT
+version: "1.0"
+date-released: "2026-11-08"
+keywords:
+  - explainable artificial intelligence
+  - survival analysis
+  - statistical certification
+  - Warrant Index
+  - breast cancer

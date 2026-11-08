@@ -1,0 +1,20 @@
+{
+  "title": "The Warrant Index: Statistically Certified Survival-XAI Audits",
+  "creators": [
+    {
+      "name": "Saray, Umut",
+      "orcid": "0000-0003-3339-6876"
+    }
+  ],
+  "description": "Software and derived aggregate results for non-compensatory, statistically certified survival-XAI audits. Source code is MIT licensed; repository-produced derived result tables and reports are CC BY 4.0 licensed. Source TCGA and METABRIC patient-level data are not included.",
+  "access_right": "open",
+  "upload_type": "software",
+  "license": "MIT",
+  "keywords": [
+    "explainable artificial intelligence",
+    "survival analysis",
+    "statistical certification",
+    "Warrant Index",
+    "breast cancer"
+  ]
+}
