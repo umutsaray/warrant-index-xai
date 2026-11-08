@@ -1,0 +1,13 @@
+model,tolerance,index,n_features,point_adequate,BH,BY,bottleneck_distribution
+CoxPH-v2,absolute_v1,WI5,27,9,8,8,"{""G_claim"": 3, ""R"": 24}"
+DeepSurv,absolute_v1,WI5,27,0,0,0,"{""R"": 27}"
+RSF,absolute_v1,WI5,27,17,12,12,"{""G_claim"": 3, ""R"": 24}"
+CoxPH-v2,absolute_v1,WI6,27,4,2,2,"{""G_claim"": 3, ""N"": 7, ""R"": 17}"
+DeepSurv,absolute_v1,WI6,27,0,0,0,"{""N"": 13, ""R"": 14}"
+RSF,absolute_v1,WI6,27,3,0,0,"{""G_claim"": 2, ""N"": 17, ""R"": 8}"
+CoxPH-v2,scaled_v2_k1_rho1,WI5,27,1,0,0,"{""G_claim"": 25, ""S"": 2}"
+DeepSurv,scaled_v2_k1_rho1,WI5,27,0,0,0,"{""F"": 2, ""G_claim"": 20, ""S"": 5}"
+RSF,scaled_v2_k1_rho1,WI5,27,10,8,8,"{""G_claim"": 16, ""R"": 7, ""S"": 4}"
+CoxPH-v2,scaled_v2_k1_rho1,WI6,27,0,0,0,"{""G_claim"": 20, ""N"": 5, ""S"": 2}"
+DeepSurv,scaled_v2_k1_rho1,WI6,27,0,0,0,"{""F"": 1, ""G_claim"": 20, ""N"": 1, ""S"": 5}"
+RSF,scaled_v2_k1_rho1,WI6,27,0,0,0,"{""G_claim"": 9, ""N"": 15, ""S"": 3}"
