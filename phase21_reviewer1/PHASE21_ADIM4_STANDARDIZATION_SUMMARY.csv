@@ -1,0 +1,7 @@
+model,standardization,n,point,median_G_claim,median_WI
+CoxPH-v2,cohort_specific_official,27,9,0.958251016608746,0.7586287322810897
+CoxPH-v2,tcga_train_mean_sd_only,27,3,0.0,0.0
+DeepSurv,cohort_specific_official,27,0,0.9833278318692464,0.7300941915227632
+DeepSurv,tcga_train_mean_sd_only,27,0,0.0,0.0
+RSF,cohort_specific_official,27,16,0.9825617747414623,0.8224489795918368
+RSF,tcga_train_mean_sd_only,27,13,0.7842672063179873,0.7613029827315543
