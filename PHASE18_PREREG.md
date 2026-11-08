@@ -83,3 +83,7 @@ V1'in mutlak toleransları sentetik `s_m_sim` cinsinden ifade edilir. V2, v1 `a`
 ## Karar ve raporlama kuralı
 
 Birincil v1/v2 sonuçları ve k* kuralı değiştirilmeyecek; tüm hücreler ve olumsuz bulgular raporlanacaktır. Gerçek veri yeniden fit edilmeyecek. Yapılamayan alt adım `yapılamadı: <neden>` biçiminde kaydedilecektir.
+
+## EK 1 — `k_enter` sağ-sansürlü sıra kuralı
+
+Bu ek ADIM 5 sonucu hesaplanmadan önce kaydedilmiştir. İnce ızgara `numpy.geomspace(0.25, 128, 60)` uçları dahil kullanılır. Ham tabloda 128'e kadar girmeyen çiftler `girmedi` olarak kalır. Spearman/Kendall sıralama hesaplarında bu çiftlerin tümü, gözlenen bütün giriş değerlerinden sonra aynı bağlı sırayı alır (sayısal yardımcı değer 256); böylece sansürlü çiftler arasında yapay bir sıra kurulmaz. Medyan/IQR yalnız gözlenen `k_enter` değerleri için verilir ve sansür sayısı ayrıca raporlanır.
