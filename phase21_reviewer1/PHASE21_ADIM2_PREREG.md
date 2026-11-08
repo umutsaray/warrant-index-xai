@@ -44,6 +44,7 @@ Klinik 16 özellik aynı tanım ve sırayla korunur. LR kuralı sonuç görülme
 ## 4. Denetim ailesi
 
 - RNA denetim ailesi: yalnız iç-eğitimde yukarıdaki filtre+LR kuralıyla sıralanan ve METABRIC beyaz listesinde bulunan genler arasından ilk **60**.
+- **Aile model panelinin alt kümesidir:** adaylar yalnız iç-eğitim filtre+LR sıralamasından model paneline giren ilk 200 RNA arasından seçilir. Bu 200 özellik içinde METABRIC beyaz listesinde bulunan ilk 60 alınır. Beyaz listeli aday sayısı 60'tan azsa mevcut adayların tamamı alınır, gerçekleşen sayı raporlanır ve aile model panelinin dışındaki bir RNA ile doldurulmaz.
 - Klinik denetim ailesi: iki kohortta ortak yaş özelliği ile AJCC evre gösterge özellikleri.
 - Gerekçe: RSF/DeepSurv explainer maliyeti ve BH aile yükü; 178 özellik, 27-feature v1 aileye göre yaklaşık 6.6 kat daha ağırdır. Aile boyutu sonuca göre genişletilmeyecek/daraltılmayacaktır.
 - CoxPH birincil olarak kendi tüm model girdilerinde değerlendirilir; ayrıca modeller arası eşleştirme için aynı 60+klinik ailede ve aynı 12+12 sorguda raporlanır.
@@ -63,6 +64,23 @@ Model mimarisi/hiperparametreleri v1 ile aynıdır: CoxPH `penalizer=0.1` ve don
 
 RSF sampled inactive background k=16 ve 8/128 yol bütçesini; DeepSurv DeepExplainer k=16/128 background bütçesini kullanır. Null kapısı model başına geçmeden BH/BY sertifikasyonu çalıştırılmaz.
 
+### Önceden belirlenmiş ikincil analizler
+
+Birincil sonuç **v1 mutlak toleranslı WI5**'tir. Aynı N=50 bootstrap çekimleriyle, yeni model fit'i veya yeni hasta bootstrap'ı olmadan şu ikincil sonuçlar ayrıca hesaplanır:
+
+1. ölçeklenmiş v2 toleransları `k=1, rho=1` altında WI5 ile WI6 (`kappa=0.25`) için nokta yeterlilik ve BH/BY;
+2. Faz 21 ADIM 3 ile aynı 2×2 tablo: `absolute_v1/scaled_v2(k=1,rho=1) × WI5/WI6(kappa=0.25)`, üç model ve v3 denetim ailesi.
+
+N bileşeni ölçeğe bağlı dondurulmuş tanımıyla korunur; “absolute × WI6” hücresinde absolute etiketi ilk beş bileşenin v1 toleranslarını belirtir. Bütün p-değerleri ilgili yapraklardan aynı recursive-IUT kuralıyla yeniden oluşturulur ve her modelin v3 ailesi içinde BH/BY uygulanır.
+
+### Önceden belirlenmiş sorgu duyarlılığı
+
+RSF ve DeepSurv için yalnız nokta-tahmin düzeyinde üç deterministik 12+12 sorgu seçimi kullanılacaktır: `20264917`, `20264918`, `20264919`. Her seed için nokta-yeterli özellik sayısı ve üç seed üzerindeki min–maks raporlanır. Bu tanı inferans/bootstrap/BH/BY kararlarını değiştirmez; birincil inferans yalnız `20264917` sorgularına aittir.
+
+### Çalıştırma öncesi kaynak kapısı
+
+Tam N=50 koşudan önce 65-feature planlı aile için bir RSF ve bir DeepSurv patient-cluster bootstrap replikasının model-fit + iki-kohort attribution süresi ölçülür. Ölçümden N=50 attribution/bootstrap ve modelin null-kapı süresi ayrı ayrı tahmin edilip raporlanır. Herhangi bir model için toplam tahmin **24 saati aşarsa** tam koşu başlatılmaz ve kullanıcıya bildirilir. Ölçüm replikası, protokol/hash eşleşirse N=50 koşunun ilk replikası olarak yeniden kullanılabilir; aksi halde maliyet ölçümü olarak etiketlenir ve inferansa katılmaz.
+
 ## 6. Önceden belirlenmiş çıktı şemaları
 
 Tüm v3 çıktıları `phase21_reviewer1/v3/` altında yeni dosyalardır; v1 dosyalarının üzerine yazılmaz.
@@ -75,6 +93,9 @@ Tüm v3 çıktıları `phase21_reviewer1/v3/` altında yeni dosyalardır; v1 dos
 - `feature_report.csv`: `feature,block,F,S,U,G_magnitude,G_signed,G_claim,R,WI,bottleneck,point_adequate`.
 - `feature_certification.csv`: bileşen p-değerleri, `p_joint,q_BH,q_BY,certified_BH,certified_BY`; ailedeki bütün özellikler yer alır.
 - `matched_three_model.csv`: ortak aile/12+12 sorgu üzerinde üç modelin eşleştirilmiş sonuçları.
+- `secondary_fourcell.csv`: önceden belirlenmiş mutlak/ölçeklenmiş × WI5/WI6 sonuçları.
+- `query_seed_sensitivity.csv`: RSF/DeepSurv üç sorgu seed'inin nokta sonuçları ve model düzeyi min–maks.
+- `resource_gate.json`: tek-replika ölçümleri, N=50/null-kapı projeksiyonları ve 24-saat kapı kararı.
 
 Hasta kimlikleri, ham METABRIC değerleri ve hasta-düzeyi tensörler izlenen çıktılara yazılmaz. Her çalıştırmadan önce/sonra `components.py` ve `aggregation.py` SHA-256'ları sırasıyla `7887cf447958726df0fc2fd17ffc5bc4d70b00de92b0888f36d3c4f49057e7aa` ve `10179864a63104eca5aeec8145983f0d25b2539a191a5b2e2095eb4b3bf5ff68` olmalıdır.
 
