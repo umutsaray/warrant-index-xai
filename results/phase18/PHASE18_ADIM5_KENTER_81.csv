@@ -1,0 +1,82 @@
+model,feature,k_enter,k_enter_label,right_censored_128,rank_helper_k,WI6_at_entry,v1_WI,v1_BH,M_j,warrant_label,is_AJCC_Stage_I
+CoxPH-v2,rna_ENSG00000244362.3,,girmedi,True,256.0,,0.8299111960054959,True,0.0031657696466263,informative,False
+CoxPH-v2,rna_ENSG00000205330.4,,girmedi,True,256.0,,0.6908923963674135,False,0.0278078699919137,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000170255.7,26.2067111502798,26.2067111503,False,26.2067111502798,0.800483641494113,0.7515377982964598,False,0.0858644542990252,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000185926.1,,girmedi,True,256.0,,0.7586287322810897,False,0.0139174444913468,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000163833.8,,girmedi,True,256.0,,0.7064267283267989,False,0.0239342152221652,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000109208.5,,girmedi,True,256.0,,0.6783365168727593,False,0.0364256568684124,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000169800.14,,girmedi,True,256.0,,0.8291531785127846,True,0.001156785774982,informative,False
+CoxPH-v2,rna_ENSG00000133742.14,1.5086104651636074,1.50861046516,False,1.5086104651636074,0.8079801355918028,0.8247786602325663,True,0.0101996431245971,informative,False
+CoxPH-v2,rna_ENSG00000187416.12,4.827199461570522,4.82719946157,False,4.827199461570522,0.8112938574444555,0.7767145873127574,False,0.0180432260790005,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000274391.5,,girmedi,True,256.0,,0.7026533963339026,False,0.0299766630501946,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000204246.3,,girmedi,True,256.0,,0.8204979725880504,True,0.004172711044193,informative,False
+CoxPH-v2,rna_ENSG00000006116.4,3.907109516509703,3.90710951651,False,3.907109516509703,0.8013434883404568,0.7674099393451963,False,0.0207326928394645,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000182591.6,,girmedi,True,256.0,,0.7481900740591805,False,0.0175016015531864,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000197683.5,,girmedi,True,256.0,,0.6920371301229846,False,0.0321252832497685,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000233452.7,,girmedi,True,256.0,,0.672378941724473,False,0.0388329705176625,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000140015.20,,girmedi,True,256.0,,0.7903428169297275,False,0.0103115354763603,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000185823.5,,girmedi,True,256.0,,0.7564967661941631,False,0.0098666897222256,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000165762.3,,girmedi,True,256.0,,0.709426627793975,False,0.0266850036343878,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000186965.5,,girmedi,True,256.0,,0.829058007439429,True,0.0007861282368262,informative,False
+CoxPH-v2,rna_ENSG00000205126.2,,girmedi,True,256.0,,0.7015448543949595,False,0.0276630969741253,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000244057.4,21.21157233025668,21.2115723303,False,21.21157233025668,0.8054052016267749,0.7835669045943503,False,0.0108580823376649,N/A (not certified),False
+CoxPH-v2,rna_ENSG00000254834.4,,girmedi,True,256.0,,0.8297335880164876,True,0.0032016118040726,informative,False
+CoxPH-v2,clin_numeric__age_at_index.demographic,4.342855852361751,4.34285585236,False,4.342855852361751,0.8122741884947777,0.9724093654428104,True,0.1357975738885231,informative,False
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,,girmedi,True,256.0,,0.7430588787239032,False,0.055448140319375,N/A (not certified),True
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,4.827199461570522,4.82719946157,False,4.827199461570522,0.8227331523742502,0.8298099929627022,False,0.0804767155808906,N/A (not certified),False
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,17.1685335920874,17.1685335921,False,17.1685335920874,0.8185966187985693,0.850917122071037,True,0.0950552668559686,informative,False
+CoxPH-v2,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,,girmedi,True,256.0,,0.6878636774907005,False,0.0485127841015397,N/A (not certified),False
+RSF,rna_ENSG00000244362.3,,girmedi,True,256.0,,0.9271742543171116,True,0.0,degenerate,False
+RSF,rna_ENSG00000205330.4,,girmedi,True,256.0,,0.9037519623233912,True,0.0,degenerate,False
+RSF,rna_ENSG00000170255.7,,girmedi,True,256.0,,0.657662160058314,False,0.1711689199708429,N/A (not certified),False
+RSF,rna_ENSG00000185926.1,,girmedi,True,256.0,,0.9271742543171116,True,0.0,degenerate,False
+RSF,rna_ENSG00000163833.8,,girmedi,True,256.0,,0.7471271585557292,False,0.0073878826494175,N/A (not certified),False
+RSF,rna_ENSG00000109208.5,,girmedi,True,256.0,,0.7766248037676595,False,0.1801201320109501,N/A (not certified),False
+RSF,rna_ENSG00000169800.14,,girmedi,True,256.0,,0.9271742543171116,True,0.0,degenerate,False
+RSF,rna_ENSG00000133742.14,32.37816125184388,32.3781612518,False,32.37816125184388,0.804072376487755,0.7885428381142978,False,0.0128739331640539,N/A (not certified),False
+RSF,rna_ENSG00000187416.12,,girmedi,True,256.0,,0.7344583987441131,False,0.0305476760317039,N/A (not certified),False
+RSF,rna_ENSG00000274391.5,,girmedi,True,256.0,,0.7558398744113028,False,0.0,N/A (not certified),False
+RSF,rna_ENSG00000204246.3,,girmedi,True,256.0,,0.927833594976452,True,0.0,degenerate,False
+RSF,rna_ENSG00000006116.4,,girmedi,True,256.0,,0.8075039246467811,False,0.0177001626591001,N/A (not certified),False
+RSF,rna_ENSG00000182591.6,,girmedi,True,256.0,,0.9260753532182106,False,0.0001848697916666,N/A (not certified),False
+RSF,rna_ENSG00000197683.5,,girmedi,True,256.0,,0.7779434850863417,False,0.0,N/A (not certified),False
+RSF,rna_ENSG00000233452.7,29.129454500629674,29.1294545006,False,29.129454500629674,0.8060800742379817,0.8066860854369533,False,0.0574596366340051,N/A (not certified),False
+RSF,rna_ENSG00000140015.20,,girmedi,True,256.0,,0.726640502354788,False,0.0308133970396167,N/A (not certified),False
+RSF,rna_ENSG00000185823.5,,girmedi,True,256.0,,0.8122605965463108,False,0.0164412260877568,N/A (not certified),False
+RSF,rna_ENSG00000165762.3,,girmedi,True,256.0,,0.7371114599686027,False,0.0335091336916589,N/A (not certified),False
+RSF,rna_ENSG00000186965.5,,girmedi,True,256.0,,0.9271742543171116,True,0.0,degenerate,False
+RSF,rna_ENSG00000205126.2,,girmedi,True,256.0,,0.9245525902668762,True,0.0045562484928266,informative,False
+RSF,rna_ENSG00000244057.4,,girmedi,True,256.0,,0.8224489795918368,False,0.0,N/A (not certified),False
+RSF,rna_ENSG00000254834.4,,girmedi,True,256.0,,0.9271742543171116,True,0.0,degenerate,False
+RSF,clin_numeric__age_at_index.demographic,,girmedi,True,256.0,,0.7613029827315543,False,0.0776213901054816,N/A (not certified),False
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,,girmedi,True,256.0,,0.926530612244898,True,0.0002385637400793,informative,True
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,,girmedi,True,256.0,,0.9240188383045528,True,0.0024314139239539,informative,False
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,,girmedi,True,256.0,,0.9115541601255892,True,0.0068889613703424,informative,False
+RSF,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,,girmedi,True,256.0,,0.9271742543171116,True,0.0,degenerate,False
+DeepSurv,rna_ENSG00000244362.3,,girmedi,True,256.0,,0.7061224489795921,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000205330.4,,girmedi,True,256.0,,0.7355416012558875,False,0.0203028893197673,N/A (not certified),False
+DeepSurv,rna_ENSG00000170255.7,,girmedi,True,256.0,,0.7055729984301422,False,0.0684230566148956,N/A (not certified),False
+DeepSurv,rna_ENSG00000185926.1,,girmedi,True,256.0,,0.7617896389324962,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000163833.8,,girmedi,True,256.0,,0.7465620094191527,False,0.0052856381786156,N/A (not certified),False
+DeepSurv,rna_ENSG00000109208.5,,girmedi,True,256.0,,0.7300941915227632,False,0.0681118177546886,N/A (not certified),False
+DeepSurv,rna_ENSG00000169800.14,,girmedi,True,256.0,,0.7305651491365786,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000133742.14,,girmedi,True,256.0,,0.7330926216640505,False,0.0035401841216874,N/A (not certified),False
+DeepSurv,rna_ENSG00000187416.12,,girmedi,True,256.0,,0.6948822605965469,False,0.0158727692563843,N/A (not certified),False
+DeepSurv,rna_ENSG00000274391.5,,girmedi,True,256.0,,0.6761224489795924,False,0.0654890924748421,N/A (not certified),False
+DeepSurv,rna_ENSG00000204246.3,,girmedi,True,256.0,,0.7219937205651494,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000006116.4,,girmedi,True,256.0,,0.7680219780219787,False,0.0091462467395588,N/A (not certified),False
+DeepSurv,rna_ENSG00000182591.6,,girmedi,True,256.0,,0.6554631083202491,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000197683.5,,girmedi,True,256.0,,0.7279277864992156,False,0.0119336832454003,N/A (not certified),False
+DeepSurv,rna_ENSG00000233452.7,,girmedi,True,256.0,,0.6730926216640496,False,0.0227127164182335,N/A (not certified),False
+DeepSurv,rna_ENSG00000140015.20,,girmedi,True,256.0,,0.7480690737833594,False,0.0042837545244583,N/A (not certified),False
+DeepSurv,rna_ENSG00000185823.5,,girmedi,True,256.0,,0.6967346938775514,False,0.0070089263101135,N/A (not certified),False
+DeepSurv,rna_ENSG00000165762.3,,girmedi,True,256.0,,0.7287755102040827,False,0.0087834619808745,N/A (not certified),False
+DeepSurv,rna_ENSG00000186965.5,,girmedi,True,256.0,,0.737676609105181,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000205126.2,,girmedi,True,256.0,,0.7322762951334385,False,0.0252899384105815,N/A (not certified),False
+DeepSurv,rna_ENSG00000244057.4,,girmedi,True,256.0,,0.6617425431711141,False,0.0,N/A (not certified),False
+DeepSurv,rna_ENSG00000254834.4,,girmedi,True,256.0,,0.7228257456828887,False,0.0,N/A (not certified),False
+DeepSurv,clin_numeric__age_at_index.demographic,,girmedi,True,256.0,,0.7003139717425441,False,0.0190765645010045,N/A (not certified),False
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,,girmedi,True,256.0,,0.7755259026687606,False,0.0080772021378737,N/A (not certified),True
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,,girmedi,True,256.0,,0.7705337519623239,False,0.012681196772149,N/A (not certified),False
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,,girmedi,True,256.0,,0.7804238618524336,False,0.0102704637011129,N/A (not certified),False
+DeepSurv,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,,girmedi,True,256.0,,0.7904081632653063,False,0.0,N/A (not certified),False
