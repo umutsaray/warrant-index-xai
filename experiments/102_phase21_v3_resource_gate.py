@@ -40,7 +40,7 @@ def external(active,xf):
    code={'Stage I':1,'Stage II':2,'Stage III':3,'Stage IV':4}[next(x for x in ['Stage I','Stage II','Stage III','Stage IV'] if f.endswith('_'+x))]
    v=pd.to_numeric(sr.reindex(samples).TUMOR_STAGE,errors='coerce').to_numpy(float);cols.append(np.where(np.isfinite(v),(v==code).astype(float),np.nan))
  arr=np.column_stack(cols); complete=np.isfinite(arr).all(1);arr=arr[complete]
- mu=xf[active].mean().to_numpy();sd=xf[active].std(ddof=0).to_numpy(); es=arr.std(0); 
+ mu=xf[active].mean().to_numpy();sd=xf[active].std(ddof=0).to_numpy(); es=arr.std(0)
  if np.any(es==0):raise RuntimeError('constant external audit feature')
  return mu+(arr-arr.mean(0))/es*sd
 def main():

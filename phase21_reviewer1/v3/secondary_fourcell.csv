@@ -1,0 +1,13 @@
+model,tolerance,index,family,point,BH,BY
+CoxPH-v3,absolute_v1,WI5,65,7,4,4
+CoxPH-v3,absolute_v1,WI6,65,7,4,4
+CoxPH-v3,scaled_v2_k1_rho1,WI5,65,0,0,0
+CoxPH-v3,scaled_v2_k1_rho1,WI6,65,0,0,0
+DeepSurv-v3,absolute_v1,WI5,65,0,0,0
+DeepSurv-v3,absolute_v1,WI6,65,0,0,0
+DeepSurv-v3,scaled_v2_k1_rho1,WI5,65,0,0,0
+DeepSurv-v3,scaled_v2_k1_rho1,WI6,65,0,0,0
+RSF-v3,absolute_v1,WI5,65,30,14,14
+RSF-v3,absolute_v1,WI6,65,24,0,0
+RSF-v3,scaled_v2_k1_rho1,WI5,65,4,1,0
+RSF-v3,scaled_v2_k1_rho1,WI6,65,0,0,0

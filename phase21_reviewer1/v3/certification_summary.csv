@@ -1,0 +1,4 @@
+model,family,point,BH,BY
+CoxPH-v3,65,7,4,4
+DeepSurv-v3,65,0,0,0
+RSF-v3,65,30,14,14
