@@ -1,0 +1,421 @@
+[
+  {
+    "replicate": 0,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_asian",
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 1,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 2,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 3,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 4,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 5,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 6,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 7,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 8,
+    "excluded": [],
+    "warnings": []
+  },
+  {
+    "replicate": 9,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 10,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 11,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 12,
+    "excluded": [
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 13,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 14,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 15,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 16,
+    "excluded": [
+      "clin_categorical__race.demographic_asian",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 17,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 18,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 19,
+    "excluded": [
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 20,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 21,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 22,
+    "excluded": [],
+    "warnings": []
+  },
+  {
+    "replicate": 23,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 24,
+    "excluded": [
+      "clin_categorical__race.demographic_asian",
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 25,
+    "excluded": [
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 26,
+    "excluded": [
+      "clin_categorical__race.demographic_asian",
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 27,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 28,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 29,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 30,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 31,
+    "excluded": [
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 32,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 33,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 34,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 35,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 36,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 37,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 38,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 39,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 40,
+    "excluded": [],
+    "warnings": []
+  },
+  {
+    "replicate": 41,
+    "excluded": [
+      "clin_categorical__gender.demographic_female",
+      "clin_categorical__gender.demographic_male",
+      "clin_categorical__race.demographic_asian",
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 42,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 43,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not reported"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 44,
+    "excluded": [
+      "clin_categorical__ethnicity.demographic_hispanic or latino"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 45,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ethnicity.demographic_hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not hispanic or latino",
+      "clin_categorical__ethnicity.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 46,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage X"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 47,
+    "excluded": [
+      "clin_categorical__race.demographic_not reported",
+      "clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV"
+    ],
+    "warnings": []
+  },
+  {
+    "replicate": 48,
+    "excluded": [],
+    "warnings": []
+  },
+  {
+    "replicate": 49,
+    "excluded": [
+      "clin_categorical__race.demographic_asian",
+      "clin_categorical__race.demographic_not reported"
+    ],
+    "warnings": []
+  }
+]

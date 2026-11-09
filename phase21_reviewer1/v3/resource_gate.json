@@ -1,0 +1,27 @@
+{
+  "family_features": 65,
+  "rows": [
+    {
+      "model": "RSF-v3",
+      "single_fit_seconds": 26.494112199987285,
+      "single_attribution_seconds": 631.4352284999331,
+      "projected_n50_seconds": 32896.46703499602,
+      "projected_null_gate_seconds": 1800.0,
+      "projected_total_seconds": 34696.46703499602,
+      "projected_total_hours": 9.637907509721117,
+      "pass_24h": true
+    },
+    {
+      "model": "DeepSurv-v3",
+      "single_fit_seconds": 1.5092888999497518,
+      "single_attribution_seconds": 2.8750079999445006,
+      "projected_n50_seconds": 219.21484499471262,
+      "projected_null_gate_seconds": 1800.0,
+      "projected_total_seconds": 2019.2148449947126,
+      "projected_total_hours": 0.5608930124985313,
+      "pass_24h": true
+    }
+  ],
+  "gate_pass": true,
+  "wall_clock_seconds": 672.4797218000749
+}

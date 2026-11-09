@@ -1,0 +1,49 @@
+{
+  "models": {
+    "CoxPH-v3": {
+      "c_index": 0.5159533073929962
+    },
+    "RSF-v3": {
+      "c_index": 0.38443579766536967
+    },
+    "DeepSurv-v3": {
+      "c_index": 0.6972762645914397,
+      "best_epoch": 30,
+      "validation_c_index": 0.7428571428571429
+    }
+  },
+  "counts": {
+    "model_features": 615,
+    "rna": 200,
+    "mirna": 200,
+    "methylation": 200,
+    "clinical": 15,
+    "audit_family": 65,
+    "audit_rna": 60,
+    "audit_clinical": 5
+  },
+  "leakage": {
+    "inner_fit_rows": 577,
+    "inner_validation_rows": 97,
+    "outer_train_rows": 674,
+    "outer_test_rows": 168,
+    "inner_fit_patient_hash": "97339f6a8a970ff37a316c855568964a842ae4d115dd5bac30a908a9d9b13a3c",
+    "inner_validation_patient_hash": "5385abe37b1464d024ee9d1603e2d412e46c1d70111c0f4206b7dff67aa3a82f",
+    "outer_test_patient_hash": "4c9e018ee47cde262e88dc513a8a90b9a0e2f5a76b0d39f722f820505f1e7034",
+    "fit_validation_patient_overlap": 0,
+    "outer_train_test_patient_overlap": 0,
+    "selection_rows_hash": "e65747a9122eeda2e5168faf9fa18354ee049a6c49e0df694fa469674e9bfb87",
+    "preprocessing_fit_rows_hash": "e65747a9122eeda2e5168faf9fa18354ee049a6c49e0df694fa469674e9bfb87",
+    "scaler_fit_rows_hash": "e65747a9122eeda2e5168faf9fa18354ee049a6c49e0df694fa469674e9bfb87",
+    "validation_used_for_selection_or_preprocessing": false
+  },
+  "preprocessing": {
+    "cache": true,
+    "signature": "97cc92aa9eff44f1"
+  },
+  "formula_sha256": {
+    "components.py": "7887cf447958726df0fc2fd17ffc5bc4d70b00de92b0888f36d3c4f49057e7aa",
+    "aggregation.py": "10179864a63104eca5aeec8145983f0d25b2539a191a5b2e2095eb4b3bf5ff68"
+  },
+  "wall_clock_seconds": 62.42847859999165
+}
