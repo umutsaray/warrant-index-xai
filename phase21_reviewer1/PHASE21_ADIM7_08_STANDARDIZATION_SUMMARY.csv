@@ -1,0 +1,7 @@
+model,method,point,median_G_claim
+CoxPH-v3,official_cohort_standardized,7,0.9730331576471426
+CoxPH-v3,tcga_train_scaler_only_no_cohort_standardization,4,0.7420803607573195
+DeepSurv-v3,official_cohort_standardized,0,0.9908853984343295
+DeepSurv-v3,tcga_train_scaler_only_no_cohort_standardization,0,0.9198835909313251
+RSF-v3,official_cohort_standardized,30,0.9594565724206353
+RSF-v3,tcga_train_scaler_only_no_cohort_standardization,16,0.8369967092803027

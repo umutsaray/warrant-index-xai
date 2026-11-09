@@ -1,0 +1,3 @@
+result,TCGA_queries,METABRIC_queries,R_universe,family,point,BH,BY
+primary_Cox_7_4_4,12,12,65,65,7,4,4
+matched_three_model_Cox,12,12,65,65,7,4,4

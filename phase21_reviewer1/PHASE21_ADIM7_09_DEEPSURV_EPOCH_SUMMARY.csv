@@ -1,0 +1,2 @@
+best_validation_epoch,best_validation_cindex,test_cindex_at_best_validation,validation_minus_test,spearman_validation_test,v1_reported_mean_gap
+30,0.7428571428571429,0.6972762645914397,0.04558087826570323,0.3878592791780959,0.264

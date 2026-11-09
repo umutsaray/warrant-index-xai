@@ -1,0 +1,21 @@
+model,feature,feature_in_v3_family,certified_in_v3
+CoxPH-v3,rna_ENSG00000244362.3,False,False
+CoxPH-v3,rna_ENSG00000169800.14,False,False
+CoxPH-v3,rna_ENSG00000133742.14,False,False
+CoxPH-v3,rna_ENSG00000204246.3,False,False
+CoxPH-v3,rna_ENSG00000186965.5,False,False
+CoxPH-v3,rna_ENSG00000254834.4,False,False
+CoxPH-v3,clin_numeric__age_at_index.demographic,True,True
+CoxPH-v3,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,True,True
+RSF-v3,rna_ENSG00000244362.3,False,False
+RSF-v3,rna_ENSG00000205330.4,False,False
+RSF-v3,rna_ENSG00000185926.1,False,False
+RSF-v3,rna_ENSG00000169800.14,False,False
+RSF-v3,rna_ENSG00000204246.3,False,False
+RSF-v3,rna_ENSG00000186965.5,False,False
+RSF-v3,rna_ENSG00000205126.2,False,False
+RSF-v3,rna_ENSG00000254834.4,False,False
+RSF-v3,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage I,True,True
+RSF-v3,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage II,True,True
+RSF-v3,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage III,True,True
+RSF-v3,clin_categorical__ajcc_pathologic_stage.diagnoses_Stage IV,True,True

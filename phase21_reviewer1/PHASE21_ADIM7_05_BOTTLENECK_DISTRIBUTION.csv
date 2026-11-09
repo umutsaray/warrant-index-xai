@@ -1,0 +1,6 @@
+model,bottleneck,n
+CoxPH-v3,G_claim,2
+CoxPH-v3,R,63
+DeepSurv-v3,R,65
+RSF-v3,G_claim,1
+RSF-v3,R,64
