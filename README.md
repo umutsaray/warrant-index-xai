@@ -20,7 +20,7 @@ The frozen experimental settings are `a=b=0.5`, `u=3`, `eta=0.02`, and `tau=0.8`
 - **v1 official analysis (pre-specified/frozen):** the five-component index uses the absolute tolerances `a=b=0.5`, `u=3`, `eta=0.02`, and `tau=0.8`. This is the official analysis reported in the main results.
 - **v2 exploratory analysis (post hoc, then preregistered before v2 computation):** Phase 17 replaces the absolute tolerances with model-scale-normalized tolerances and adds the sixth exercised-signal component `N`. The frozen v2 definitions and grid are in [`PHASE17_PREREG.md`](PHASE17_PREREG.md); results are in [`PHASE17_V2.md`](PHASE17_V2.md).
 - **Phase 21 v3 diagnostic replication (post hoc, preregistered before v3 computation):** the leakage-controlled screening and matched-family replication is documented under [`phase21_reviewer1/`](phase21_reviewer1/).
-- **Tolerance profile and synthetic diagnostics (post hoc, then preregistered before computation):** Phase 18 profiles `k`, evaluates the data-generating-process scale, and tests synthetic discrimination. The plan is in [`PHASE18_PREREG.md`](PHASE18_PREREG.md) and the results are in [`PHASE18_KAPANIS.md`](PHASE18_KAPANIS.md). No standalone Phase 19 preregistration or report is present in this repository snapshot.
+- **Tolerance profile and synthetic diagnostics (post hoc, then preregistered before computation):** Phase 18 profiles `k`, evaluates the data-generating-process scale, and tests synthetic discrimination. The plan is in [`PHASE18_PREREG.md`](PHASE18_PREREG.md) and the results are in [`PHASE18_KAPANIS.md`](PHASE18_KAPANIS.md). The Phase 19 preregistration and closure report are available in [`PHASE19_PREREG.md`](PHASE19_PREREG.md) and [`PHASE19_KAPANIS.md`](PHASE19_KAPANIS.md), respectively.
 
 The frozen v1 analysis is the official analysis tier. The v2, tolerance-profile, and Phase 21 v3 analyses are post hoc exploratory or diagnostic replication layers and do **not** replace or modify the frozen v1 results.
 
@@ -81,7 +81,7 @@ The repository requires Python 3.10 or newer. The current regression command is:
 python -m pytest -q
 ```
 
-The recorded complete suite contains 211 tests. Phase 17–18 real-data gates require the locally stored, non-versioned TCGA/METABRIC-derived matrices, fitted models, and attribution tensors. Synthetic-only Phase 17–18 steps do not download patient-level data. There are no Phase 19 scripts in this repository snapshot.
+The recorded complete suite contains 211 tests. Phase 17–18 real-data gates require the locally stored, non-versioned TCGA/METABRIC-derived matrices, fitted models, and attribution tensors. Synthetic-only Phase 17–18 steps do not download patient-level data. Phase 19 scripts and reports are included in this repository snapshot.
 
 ## Data access
 
